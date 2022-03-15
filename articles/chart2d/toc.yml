@@ -1,0 +1,38 @@
+- name: "Axis APIs"
+  href: "AxisAPIs/toc.yml"
+  homepage: "AxisAPIs/Axis APIs.md"
+
+- name: "2D Chart Types"
+  href: "2dChartTypes/toc.yml"
+  homepage: "2dChartTypes/2D Chart Types.md"
+
+- name: "DataSeries APIs"
+  href: "DataSeries APIs.md"
+
+- name: "Styling and Theming"
+  href: "stylingAndTheming/toc.yml"
+  homepage: "stylingAndTheming/Styling and Theming.md"
+
+- name: "Chart Modifier APIs"
+  href: "chartModifierAPIs/toc.yml"
+  homepage: "chartModifierAPIs/Chart Modifier APIs.md"
+
+- name: "Annotations APIs"
+  href: "annotationsAPIs/toc.yml"
+  homepage: "annotationsAPIs/Annotations APIs.md"
+
+- name: "PointMarker API"
+  href: "PointMarker API.md"
+
+- name: "PaletteProvider API"
+  href: "PaletteProvider API.md"
+
+- name: "Data Resampling"
+  href: "Data Resampling.md"
+
+- name: "Hit-Test API"
+  href: "Hit-Test API.md"
+
+- name: "Animations API"
+  href: "animationsAPI/toc.yml"
+  homepage: "animationsAPI/Animations API.md"

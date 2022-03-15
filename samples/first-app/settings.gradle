@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        // Declare a Maven repository for SciChart
+        maven { url 'https://www.myget.org/F/abtsoftware-bleeding-edge/maven' }
+        maven { url 'https://www.myget.org/F/abtsoftware/maven' }
+    }
+}
+rootProject.name = "First SciChart App"
+include ':2D'
+include ':3D'

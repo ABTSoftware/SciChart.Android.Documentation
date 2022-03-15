@@ -1,0 +1,17 @@
+- name: "SciChart Android SDK User Manual"
+  href: "User Manual.md"
+
+- name: "Installation and System Requirements"
+  href: "Installation and System Requirements.md"
+
+- name: "Integrating SciChart Libraries"
+  href: "Integrating SciChart Libraries.md"
+
+- name: "Licensing SciChart Android"
+  href: "Licensing SciChart Android.md"
+
+- name: "Online Resources and Help"
+  href: "Online Resources and Help.md"
+
+- name: "Chart Builders Helper Classes"
+  href: "Chart Builders Helper Classes.md"

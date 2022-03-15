@@ -1,0 +1,22 @@
+- name: Articles
+  href: articles/
+
+- name: Core
+  href: api/core/
+  homepage: api/core/overview.yml
+
+- name: Data
+  href: api/data/
+  homepage: api/data/overview.yml
+
+- name: Drawing
+  href: api/drawing/
+  homepage: api/drawing/overview.yml
+
+- name: Charting
+  href: api/charting/
+  homepage: api/charting/overview.yml
+
+- name: Charting3D
+  href: api/charting3d/
+  homepage: api/charting3d/overview.yml

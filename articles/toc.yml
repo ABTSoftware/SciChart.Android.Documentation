@@ -1,0 +1,12 @@
+- name: "SciChart Android SDK User Manual"
+  href: "UserManual/toc.yml"
+  homepage: "../index.md"
+
+- name: "Quick Start Guide"
+  href: "quickStartGuide/toc.yml"
+
+- name: "SciChart Android 2D Charts API"
+  href: "chart2d/toc.yml"
+
+- name: "SciChart Android 3D Charts API"
+  href: "chart3d/toc.yml"

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/kotlin"
+        android:icon="@drawable/icon_kotlin"
+        android:orderInCategory="3"
+        android:menuCategory="container"
+        android:title="Kotlin"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/java"
+        android:orderInCategory="1"
+        android:menuCategory="container"
+        android:icon="@drawable/icon_java"
+        android:title="Java"
+        app:showAsAction="always|withText" />
+
+
+    <item
+        android:id="@+id/javaBuilders"
+        android:orderInCategory="2"
+        android:menuCategory="container"
+        android:icon="@drawable/icon_java"
+        android:title="JBuilders"
+        app:showAsAction="always|withText" />
+
+</menu>

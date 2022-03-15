@@ -1,0 +1,22 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+    // <AddSciChartMavenRepositories>
+    repositories {
+        google()
+        mavenCentral()
+
+        // Declare a Maven repository for SciChart
+        maven { url 'https://www.myget.org/F/abtsoftware-bleeding-edge/maven' }
+        maven { url 'https://www.myget.org/F/abtsoftware/maven' }
+    }
+    // </AddSciChartMavenRepositories>
+
+    // <AddLibrariesFromLocalFolder>
+    repositories {
+        flatDir{dirs 'libs'}
+    }
+    // </AddLibrariesFromLocalFolder>
+}
+rootProject.name = "DocSandbox"
+include ':app'

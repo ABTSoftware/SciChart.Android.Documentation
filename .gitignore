@@ -1,0 +1,15 @@
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+_site
+_exported_templates
+
+.DS_Store
+
+**/.gradle/
+**/.idea/
+**/build/
+
+**/local.properties

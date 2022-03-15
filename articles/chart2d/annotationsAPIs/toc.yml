@@ -1,0 +1,28 @@
+- name: "BoxAnnotation"
+  href: "BoxAnnotation.md"
+
+- name: "LineAnnotation"
+  href: "LineAnnotation.md"
+
+- name: "LineArrowAnnotation"
+  href: "LineArrowAnnotation.md"
+
+- name: "HorizontalLineAnnotation"
+  href: "HorizontalLineAnnotation.md"
+
+- name: "VerticalLineAnnotation"
+  href: "VerticalLineAnnotation.md"
+
+- name: "TextAnnotation"
+  href: "TextAnnotation.md"
+
+- name: "AxisLabelAnnotation"
+  href: "AxisLabelAnnotation.md"
+
+- name: "AxisMarkerAnnotation"
+  href: "AxisMarkerAnnotation.md"
+
+- name: "CustomAnnotation"
+  href: "CustomAnnotation.md"
+
+

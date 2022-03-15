@@ -1,0 +1,17 @@
+- name: "ZoomExtentsModifier"
+  href: "ZoomExtentsModifier.md"
+
+- name: "PinchZoomModifier"
+  href: "PinchZoomModifier.md"
+
+- name: "ZoomPanModifier"
+  href: "ZoomPanModifier.md"
+
+- name: "RubberBandXyZoomModifier"
+  href: "RubberBandXyZoomModifier.md"
+
+- name: "XAxisDragModifier"
+  href: "XAxisDragModifier.md"
+
+- name: "YAxisDragModifier"
+  href: "YAxisDragModifier.md"

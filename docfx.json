@@ -1,0 +1,46 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md",
+
+          "api/**.yml",
+          "api/**.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/images/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "templates/SciChart.Web"
+    ],
+    "postProcessors": ["ExtractSearchIndex"],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": true,
+    "globalMetadata": {
+      "_appTitle": "SciChart Android Documentation",
+      "_appFooter": "© 2022 SciChart. All rights reserved.",
+      "_appLogoPath": "images/scichart-logo-white.png",
+      "_appFaviconPath": "images/scichart-favicon.png",
+      "_disableContribution": true,
+      "_disableAffix": true,
+      "_enableSearch": true
+    }
+  }
+}

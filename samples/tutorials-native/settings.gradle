@@ -1,0 +1,100 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+    // <AddSciChartMavenRepositories>
+    repositories {
+        google()
+        mavenCentral()
+
+        // Declare a Maven repository for SciChart
+        maven { url 'https://www.myget.org/F/abtsoftware-bleeding-edge/maven' }
+        maven { url 'https://www.myget.org/F/abtsoftware/maven' }
+    }
+    // </AddSciChartMavenRepositories>
+
+    // <AddLibrariesFromLocalFolder>
+    repositories {
+        flatDir{dirs 'libs'}
+    }
+    // </AddLibrariesFromLocalFolder>
+}
+
+rootProject.name = "tutorials"
+
+include ':tutorial-2d-1-java'
+include ':tutorial-2d-1-javaBuilder'
+include ':tutorial-2d-1-kotlin'
+project(":tutorial-2d-1-java").projectDir = file("tutorials-2d/tutorial-1/java")
+project(":tutorial-2d-1-javaBuilder").projectDir = file("tutorials-2d/tutorial-1/javaBuilder")
+project(":tutorial-2d-1-kotlin").projectDir = file("tutorials-2d/tutorial-1/kotlin")
+
+include ':tutorial-2d-2-java'
+include ':tutorial-2d-2-javaBuilder'
+include ':tutorial-2d-2-kotlin'
+project(":tutorial-2d-2-java").projectDir = file("tutorials-2d/tutorial-2/java")
+project(":tutorial-2d-2-javaBuilder").projectDir = file("tutorials-2d/tutorial-2/javaBuilder")
+project(":tutorial-2d-2-kotlin").projectDir = file("tutorials-2d/tutorial-2/kotlin")
+
+include ':tutorial-2d-3-java'
+include ':tutorial-2d-3-javaBuilder'
+include ':tutorial-2d-3-kotlin'
+project(":tutorial-2d-3-java").projectDir = file("tutorials-2d/tutorial-3/java")
+project(":tutorial-2d-3-javaBuilder").projectDir = file("tutorials-2d/tutorial-3/javaBuilder")
+project(":tutorial-2d-3-kotlin").projectDir = file("tutorials-2d/tutorial-3/kotlin")
+
+include ':tutorial-2d-4-java'
+include ':tutorial-2d-4-javaBuilder'
+include ':tutorial-2d-4-kotlin'
+project(":tutorial-2d-4-java").projectDir = file("tutorials-2d/tutorial-4/java")
+project(":tutorial-2d-4-javaBuilder").projectDir = file("tutorials-2d/tutorial-4/javaBuilder")
+project(":tutorial-2d-4-kotlin").projectDir = file("tutorials-2d/tutorial-4/kotlin")
+
+include ':tutorial-2d-5-java'
+include ':tutorial-2d-5-javaBuilder'
+include ':tutorial-2d-5-kotlin'
+project(":tutorial-2d-5-java").projectDir = file("tutorials-2d/tutorial-5/java")
+project(":tutorial-2d-5-javaBuilder").projectDir = file("tutorials-2d/tutorial-5/javaBuilder")
+project(":tutorial-2d-5-kotlin").projectDir = file("tutorials-2d/tutorial-5/kotlin")
+
+include ':tutorial-2d-6-java'
+include ':tutorial-2d-6-javaBuilder'
+include ':tutorial-2d-6-kotlin'
+project(":tutorial-2d-6-java").projectDir = file("tutorials-2d/tutorial-6/java")
+project(":tutorial-2d-6-javaBuilder").projectDir = file("tutorials-2d/tutorial-6/javaBuilder")
+project(":tutorial-2d-6-kotlin").projectDir = file("tutorials-2d/tutorial-6/kotlin")
+
+include ':tutorial-2d-7-java'
+include ':tutorial-2d-7-javaBuilder'
+include ':tutorial-2d-7-kotlin'
+project(":tutorial-2d-7-java").projectDir = file("tutorials-2d/tutorial-7/java")
+project(":tutorial-2d-7-javaBuilder").projectDir = file("tutorials-2d/tutorial-7/javaBuilder")
+project(":tutorial-2d-7-kotlin").projectDir = file("tutorials-2d/tutorial-7/kotlin")
+
+//Tutorials 3d
+include ':tutorial-3d-1-java'
+include ':tutorial-3d-1-javaBuilder'
+include ':tutorial-3d-1-kotlin'
+project(":tutorial-3d-1-java").projectDir = file("tutorials-3d/tutorial-1/java")
+project(":tutorial-3d-1-javaBuilder").projectDir = file("tutorials-3d/tutorial-1/javaBuilder")
+project(":tutorial-3d-1-kotlin").projectDir = file("tutorials-3d/tutorial-1/kotlin")
+
+include ':tutorial-3d-2-java'
+include ':tutorial-3d-2-javaBuilder'
+include ':tutorial-3d-2-kotlin'
+project(":tutorial-3d-2-java").projectDir = file("tutorials-3d/tutorial-2/java")
+project(":tutorial-3d-2-javaBuilder").projectDir = file("tutorials-3d/tutorial-2/javaBuilder")
+project(":tutorial-3d-2-kotlin").projectDir = file("tutorials-3d/tutorial-2/kotlin")
+
+include ':tutorial-3d-3-java'
+include ':tutorial-3d-3-javaBuilder'
+include ':tutorial-3d-3-kotlin'
+project(":tutorial-3d-3-java").projectDir = file("tutorials-3d/tutorial-3/java")
+project(":tutorial-3d-3-javaBuilder").projectDir = file("tutorials-3d/tutorial-3/javaBuilder")
+project(":tutorial-3d-3-kotlin").projectDir = file("tutorials-3d/tutorial-3/kotlin")
+
+include ':tutorial-3d-4-java'
+include ':tutorial-3d-4-javaBuilder'
+include ':tutorial-3d-4-kotlin'
+project(":tutorial-3d-4-java").projectDir = file("tutorials-3d/tutorial-4/java")
+project(":tutorial-3d-4-javaBuilder").projectDir = file("tutorials-3d/tutorial-4/javaBuilder")
+project(":tutorial-3d-4-kotlin").projectDir = file("tutorials-3d/tutorial-4/kotlin")

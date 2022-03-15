@@ -1,0 +1,5 @@
+- name: "Zoom and Pan"
+  href: "zoomAndPan/toc.yml"
+
+- name: "Interactivity"
+  href: "interactivity/toc.yml"
