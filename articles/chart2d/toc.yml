@@ -36,3 +36,6 @@
 - name: "Animations API"
   href: "animationsAPI/toc.yml"
   homepage: "animationsAPI/Animations API.md"
+
+- name: "Advanced 2D Charting Topics"
+  href: "advanced2dTopics/toc.yml"
