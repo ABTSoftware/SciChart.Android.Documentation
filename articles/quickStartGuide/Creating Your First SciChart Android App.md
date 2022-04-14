@@ -43,6 +43,7 @@ Since this is a ***Quick Start Example***, we will use the one instance of <xref
 There few ways of adding <xref:com.scichart.charting.visuals.SciChartSurface> to your application. We will look more closely into the following:
 - [Using XML](#adding-scichartsurface-using-xml)
 - [Purely from code](#adding-scichartsurface-purely-from-code)
+- [Jetpack Compose](#adding-scichartsurface-using-jetpack-compose) 
 
 #### Adding SciChartSurface using XML
 Open up your **activity_main.xml** file and add <xref:com.scichart.charting.visuals.SciChartSurface>, like this:
@@ -54,6 +55,14 @@ In your Activity you will need to instantiate the <xref:com.scichart.charting.vi
 See the code below:
 
 [!code-swift[AddingSciChartSurfaceFromCode](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivity.kt#AddingSciChartSurfaceFromCode)]
+
+#### Adding SciChartSurface using Jetpack Compose
+Since <xref:com.scichart.charting.visuals.SciChartSurface> is an [Android View](https://developer.android.com/reference/android/view/View) under the hood, you can use the [AndroidView composable](https://developer.android.com/reference/kotlin/androidx/compose/ui/viewinterop/package-summary#AndroidView(kotlin.Function1,androidx.compose.ui.Modifier,kotlin.Function1)) to include your <xref:com.scichart.charting.visuals.SciChartSurface>, like this:
+
+[!code-swift[AddingChartSurfaceUsingCompose](../../samples/first-app/JetpackCompose/src/main/java/com/example/firstscichartapp/MainActivity.kt#AddingChartSurfaceUsingCompose)]
+
+> [!NOTE]
+> Please, follow the [official Android documentation](https://developer.android.com/jetpack/compose/interop/interop-apis#views-in-compose) article for more details on how to include Android Views in a Compose UI.
 
 #### Adding Axes to the SciChartSurface
 Once you have added a <xref:com.scichart.charting.visuals.SciChartSurface> into your Activity, you will not see anything drawn because you need to add axes. 

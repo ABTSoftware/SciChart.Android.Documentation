@@ -19,3 +19,4 @@ dependencyResolutionManagement {
 rootProject.name = "First SciChart App"
 include ':2D'
 include ':3D'
+include ':JetpackCompose'
