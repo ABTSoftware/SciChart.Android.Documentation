@@ -105,3 +105,53 @@ If there will be only one item in subcategory then another way would be to add n
   - name: 'Installation and System Requirements'
     href: QuickStart/InstallationAndSystemRequirements.md
 ```
+
+## Article content
+
+DocFx uses [extended version of Github Markdown syntax](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html). So in addition to standard Markdown syntax we can:
+ - include code snippets
+ - reference other articles and `yaml` articles extracted from JavaDoc comments in code by their ids 
+ - add tabs ( for providing code snippets in both Java/Kotlin/Xamarin )
+
+### Adding code sample into article
+1. Create a file with required source ( it could be part of existing project in `samples` directory or completely new project )
+2. In source code add comments to mark start and end of section which should be included into article:
+```kotlin
+fun createAxis() {
+    // <CreateNewAxis>
+    val xAxis = NumericAxis(context)
+    // </CreateNewAxis>
+}
+```
+3. In article which should include code sample use special [syntax for adding code snippets](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#code-snippet). Result should look similar to this one:
+```markdown
+[!code[CreateNewAxis](<RelativePathToFile>#CreateNewAxis)]
+```
+
+### Referencing extracted JavaDocs in article:
+1. During process of extraction JavaDocs from source code you get `yml` files that are stored in `api` folder. For each class/method/property there is unique `uid` that is generated, that allows to reference it. You can also [add this `uids` for documentation articles](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#yaml-header) as alternative to referencing markdown files directly via relative path.
+2. To reference API docs or article you can use next [syntax](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#cross-reference):
+```markdown
+<xref:<uidOfArticleOrAPiDoc>>
+
+this will automatically generate link based on title from article:
+<xref:com.scichart.charting.model.dataSeries.IXyDataSeries.updateXyAt(int,TX,TY)>
+
+if you want custom text for link use next syntax:
+[CustomTextForLink](xref:com.scichart.charting.model.dataSeries.IXyDataSeries.updateXyAt(int,TX,TY))
+```
+
+### Adding tabs
+To add tabs use next [syntax](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tabbed-content):
+```markdown
+# [Java](#tab/java)
+<Java content>
+# [Java with Builders API](#tab/javaBuilder)
+<Java with Builders content>
+# [Kotlin](#tab/kotlin)
+<Kotlin content>
+# [Xamarin.Android](#tab/xamarin)
+<Xamarin.Android content>
+***
+```
+We use same ids(`java`, `javaBuilder`, `kotlin`, `xamarin`) in `#tab/<id>` part, because in case reader selects another tab, e.g. changes from Java to Kotlin, and if there are multiple tabs on same page, then all tabs on current page will automatically switch to Kotlin.
