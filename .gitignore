@@ -12,4 +12,6 @@ _exported_templates
 **/.idea/
 **/build/
 
+!/build
+
 **/local.properties

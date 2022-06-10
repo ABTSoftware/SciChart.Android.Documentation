@@ -43,7 +43,13 @@ generate_api_docs() {
     echo " ----- Generating \`.yaml\` API files from SciChart.Android JavaDoc comments..."
     pushd $SCICHART_PATH
     sh gradlew generateReleaseApiDocs -PDOCFX_PROJ_PATH=${DOCFX_PROJ_PATH}
+    returnCode=$?
     popd
+
+    # check return code of generateReleaseApiDocs command and prevent further execution if it failed
+    if [ $returnCode -ne 0 ]; then
+        exit $returnCode
+    fi    
 }
 
 generate_site() {
