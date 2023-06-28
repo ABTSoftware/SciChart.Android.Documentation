@@ -1,0 +1,11 @@
+- name: "Project Setup"
+  href: "Project Setup.md"
+
+- name: "Adding SciChart using xml"
+  href: "Adding SciChart using xml.md"
+
+- name: "Adding SciChart purely from code"
+  href: "Adding SciChart purely from code.md"
+
+- name: "Adding SciChart from Compose"
+  href: "Adding SciChart from Compose.md"

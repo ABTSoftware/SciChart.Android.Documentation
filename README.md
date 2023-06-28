@@ -41,7 +41,14 @@ brew extract --version 2.59 docfx dotnet/docfx
 brew install --ignore-dependencies docfx@2.59
 ```
 
-Latest stable version at this moment is v2.59
+If above installation does not work then unistall above dotfx and try installation like below:
+
+```
+brew install docfx@2.59
+brew link docfx@2.59
+```
+
+Latest stable version at this moment is v2.67 but use only v2.59
 
 ### **Project structure**
 - The main configuration is stored at `docfx.json` (which folder should be scanned and so on).

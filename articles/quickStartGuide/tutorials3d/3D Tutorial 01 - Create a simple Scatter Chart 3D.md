@@ -9,10 +9,10 @@ In this SciChart Android 3D tutorial, you’ll learn to:
 - render a [Simple Scatter 3D Series](xref:chart3d.ScatterSeries3D);
 
 > [!NOTE]
-> This ***tutorial*** assumes that you’ve already know how to [Link SciChart Android](xref:userManual.IntegratingSciChartLibraries) and [Add SciChartSurface3D instance](xref:quickStartGuide.CreatingYourFirstSciChartAndroidApp#adding-3d-axes-to-the-scichartsurface3d) into your `Fragment`. If you need more information - please read the following articles:
+> This ***tutorial*** assumes that you’ve already know how to [Link SciChart Android](xref:userManual.IntegratingSciChartLibraries) and [Add SciChartSurface3D instance](xref:quickStartGuide.projectSetup.AddingChartUsingxml#adding-3d-axes-to-the-scichartsurface3d) into your `Fragment`. If you need more information - please read the following articles:
 >
 > - [Integrating SciChart.framework](xref:userManual.IntegratingSciChartLibraries)
-> - [The SciChartSurface3D Type](xref:quickStartGuide.CreatingYourFirstSciChartAndroidApp#the-scichartsurface3d-type)
+> - [The SciChartSurface3D Type](xref:quickStartGuide.projectSetup.AddingChartUsingxml#the-scichartsurface3d-type)
 
 ## Getting Started
 This tutorial is suitable for **Java** and **Kotlin**.
