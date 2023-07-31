@@ -22,8 +22,8 @@ If you want to run it yourself and play around with code right away you can
 
 ### Build and Run the Demo 
 To run the demo yourself you will need to do a couple of simple steps: 
-1. Setup the Android project and integrate SciChart Framework, please see the first paragraphs in ["Creating your First App"](xref:quickStartGuide.CreatingYourFirstSciChartAndroidApp) if you need help.
-2. Set the (trial) [licenses key](xref:quickStartGuide.CreatingYourFirstSciChartAndroidApp) and your key can be found at your [profile page](https://www.scichart.com/profile/). 
+1. Setup the Android project and integrate SciChart Framework, please see the first paragraphs in ["Creating your First App"](xref:quickStartGuide.projectSetup.ProjectSetup) if you need help.
+2. Set the (trial) [licenses key](xref:quickStartGuide.projectSetup.ProjectSetup) and your key can be found at your [profile page](https://www.scichart.com/profile/). 
 3. Run the project. 
 
 If everything is ok this is what you should see the following:
@@ -62,4 +62,4 @@ Our website also has the full list of [Android Examples](https://www.scichart.co
 Wish you have a great experience! We are always looking for your [feedback](https://www.scichart.com/contact-us/)!
 
 ## See Also
-- [Creating your first SciChart Android App](xref:quickStartGuide.CreatingYourFirstSciChartAndroidApp)
+- [Creating your first SciChart Android App](xref:quickStartGuide.projectSetup.ProjectSetup)

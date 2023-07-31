@@ -4,10 +4,10 @@
     android:id="@+id/chart_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivityUsingXml">
 
     <!-- <AddingChartSurfaceUsingXML> -->
-    <com.scichart.charting.visuals.SciChartSurface
+    <com.scichart.charting3d.visuals.SciChartSurface3D
         android:id="@+id/surface"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

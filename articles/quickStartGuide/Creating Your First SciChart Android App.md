@@ -25,7 +25,7 @@ You can fetch a Trial License Key directly from the [Downloads](https://www.scic
 
 When you have your key, you should apply it via <xref:com.scichart.charting.visuals.SciChartSurface.setRuntimeLicenseKey(java.lang.String)> like below:
 
-[!code-swift[SetRuntimeLicenseKey](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivity.kt#SetRuntimeLicenseKey)]
+[!code-swift[SetRuntimeLicenseKey](../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/DocSandboxApplication.kt#SetRuntimeLicenseKey)]
 
 > [!NOTE]
 > The License Key must be set in your app once, and once only before any <xref:com.scichart.charting.visuals.SciChartSurface> instance is initialized.
@@ -48,13 +48,13 @@ There few ways of adding <xref:com.scichart.charting.visuals.SciChartSurface> to
 #### Adding SciChartSurface using XML
 Open up your **activity_main.xml** file and add <xref:com.scichart.charting.visuals.SciChartSurface>, like this:
 
-[!code-xml[AddingChartSurfaceUsingXML](../../samples/first-app/2D/src/main/res/layout/activity_main.xml#AddingChartSurfaceUsingXML)]
+[!code-xml[AddingChartSurfaceUsingXML](../../samples/first-app/2D/src/main/res/layout/activity_main_using_xml.xml#AddingChartSurfaceUsingXML)]
 
 #### Adding SciChartSurface purely from code
 In your Activity you will need to instantiate the <xref:com.scichart.charting.visuals.SciChartSurface> and add it as a subview.
 See the code below:
 
-[!code-swift[AddingSciChartSurfaceFromCode](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivity.kt#AddingSciChartSurfaceFromCode)]
+[!code-swift[AddingSciChartSurfaceFromCode](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivityUsingXml.kt#AddingSciChartSurfaceFromCode)]
 
 #### Adding SciChartSurface using Jetpack Compose
 Since <xref:com.scichart.charting.visuals.SciChartSurface> is an [Android View](https://developer.android.com/reference/android/view/View) under the hood, you can use the [AndroidView composable](https://developer.android.com/reference/kotlin/androidx/compose/ui/viewinterop/package-summary#AndroidView(kotlin.Function1,androidx.compose.ui.Modifier,kotlin.Function1)) to include your <xref:com.scichart.charting.visuals.SciChartSurface>, like this:
@@ -68,13 +68,13 @@ Since <xref:com.scichart.charting.visuals.SciChartSurface> is an [Android View](
 Once you have added a <xref:com.scichart.charting.visuals.SciChartSurface> into your Activity, you will not see anything drawn because you need to add axes. 
 This is an important thing here - **two axes X and Y** has to be added to your surface. This is a bare minimum to see a drawn grid on your device.
 
-[!code-swift[AddingAxesToTheSciChartSurface](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivity.kt#AddingAxesToTheSciChartSurface)]
+[!code-swift[AddingAxesToTheSciChartSurface](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivityUsingXml.kt#AddingAxesToTheSciChartSurface)]
 
 #### Adding Renderable Series
 Now, we would like to see something more than just an empty grid, e.g. Line Chart. 
 So let's add some **RenderableSeries** with appropriate DataSeries to our surface:
 
-[!code-swift[AddingRenderableSeries](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivity.kt#AddingRenderableSeries)]
+[!code-swift[AddingRenderableSeries](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivityUsingXml.kt#AddingRenderableSeries)]
 
 > [!NOTE]
 > You might have noticed, that we used <xref:com.scichart.core.model.DoubleValues> while appending points to <xref:com.scichart.charting.model.dataSeries.IXyDataSeries>. That's the recommended way of appending data, due to better performance, comparing to adding points one by one. You can use <xref:com.scichart.charting.model.dataSeries.IXyDataSeries.append(TX[],TY[])> if you want though.
@@ -82,7 +82,7 @@ So let's add some **RenderableSeries** with appropriate DataSeries to our surfac
 #### Final example code
 So let's see what we've managed to get. Let's see the listing from the MainActivity below:
 
-[!code-swift[FinalExampleCode](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivity.kt#FinalExampleCode)]
+[!code-swift[FinalExampleCode](../../samples/first-app/2D/src/main/java/com/example/firstscichartapp/MainActivityUsingXml.kt#FinalExampleCode)]
 
 > [!NOTE]
 > Please note that we've added axes and renderableSeries to <xref:com.scichart.charting.visuals.SciChartSurface> inside <xref:com.scichart.core.framework.UpdateSuspender.using(com.scichart.core.framework.ISuspendable,java.lang.Runnable)> block. This allows you to suspend surface instance, and refresh it only one time after you finished all needed operations. That's **highly recommended** technique if you want to omit performance decrease due to triggering refreshes on every operation which could be performed in one batch.
@@ -101,18 +101,18 @@ Declaring <xref:com.scichart.charting3d.visuals.SciChartSurface3D> to your appli
 Once you have added a <xref:com.scichart.charting3d.visuals.SciChartSurface3D> into your Activity, you will not see anything drawn because you need to add axes. 
 This is an important thing here - **three axes X, Y, and Z** has to be added to your surface. This is a bare minimum to see a drawn grid on your device.
 
-[!code-swift[AddingAxesToTheSciChartSurface3D](../../samples/first-app/3D/src/main/java/com/example/firstscichartapp/MainActivity.kt#AddingAxesToTheSciChartSurface3D)]
+[!code-swift[AddingAxesToTheSciChartSurface3D](../../samples/first-app/3D/src/main/java/com/example/firstscichartapp/MainActivityUsingXml.kt#AddingAxesToTheSciChartSurface3D)]
 
 #### Adding 3D Renderable Series
 Now, we would like to see something more than just an empty grid, e.g. Scatter 3D Chart. 
 So let’s add some **RenderableSeries3D** with appropriate DataSeries 3D to our surface:
 
-[!code-swift[Adding3DRenderableSeries](../../samples/first-app/3D/src/main/java/com/example/firstscichartapp/MainActivity.kt#Adding3DRenderableSeries)]
+[!code-swift[Adding3DRenderableSeries](../../samples/first-app/3D/src/main/java/com/example/firstscichartapp/MainActivityUsingXml.kt#Adding3DRenderableSeries)]
 
 #### Final example 3D code
 So let's see what we've managed to get. Let's see the listing from the Activity below:
 
-[!code-swift[FinalExampleCode](../../samples/first-app/3D/src/main/java/com/example/firstscichartapp/MainActivity.kt#FinalExampleCode)]
+[!code-swift[FinalExampleCode](../../samples/first-app/3D/src/main/java/com/example/firstscichartapp/MainActivityUsingXml.kt#FinalExampleCode)]
 
 > [!NOTE]
 > Please note that we've added axes and renderableSeries to <xref:com.scichart.charting3d.visuals.SciChartSurface3D> inside <xref:com.scichart.core.framework.UpdateSuspender.using(com.scichart.core.framework.ISuspendable,java.lang.Runnable)> block. This allows you to suspend surface instance, and refresh it only one time after you finished all needed operations. That's **highly recommended** technique if you want to omit performance decrease due to triggering refreshes on every operation which could be performed in one batch.

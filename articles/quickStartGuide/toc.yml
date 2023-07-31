@@ -1,8 +1,8 @@
 - name: "SciChart Android examples Suite"
   href: "SciChart Android examples Suite.md"
 
-- name: "Creating your first SciChart Android App"
-  href: "Creating Your First SciChart Android App.md"
+- name: "Creating your first SciChart App"
+  href: "projectSetup/toc.yml"
   
 - name: "Tutorials 2D"
   href: "tutorials2d/toc.yml"
