@@ -1,5 +1,10 @@
 {
   "build": {
+    "sitemap": {
+      "baseUrl": "https://www.scichart.com/documentation/android/current",
+      "priority": 0.5,
+      "changeFreq": "monthly"
+    },
     "content": [
       {
         "files": [
