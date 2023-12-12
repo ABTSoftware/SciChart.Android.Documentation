@@ -46,7 +46,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    def sciChart_version = "4.4.0-nightly.4744"
+    def sciChart_version = "4.5.0.4851"
 
     // Declare SciChart libraries as module dependencies
     implementation (group: 'com.scichart.library', name: 'core', version: sciChart_version, ext: 'aar')
