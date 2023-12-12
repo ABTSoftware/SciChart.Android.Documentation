@@ -3,7 +3,7 @@ uid: "axisAPIs.AddAxisToSciChartSurface"
 ---
 
 # Add an Axis to a SciChartSurface
-While creating your [First SciChart Android App](xref:quickStartGuide.CreatingYourFirstSciChartAndroidApp) you've added *axes* to a <xref:com.scichart.charting.visuals.SciChartSurface>. With SciChart you can also have **unlimited number of axes**, whether it's left, right, top or bottom, X or Y Axes.
+While creating your [First SciChart Android App](xref:quickStartGuide.projectSetup.ProjectSetup) you've added *axes* to a <xref:com.scichart.charting.visuals.SciChartSurface>. With SciChart you can also have **unlimited number of axes**, whether it's left, right, top or bottom, X or Y Axes.
 
 ![Multiple Axes Example](images/multiple-axes-example.png)
 

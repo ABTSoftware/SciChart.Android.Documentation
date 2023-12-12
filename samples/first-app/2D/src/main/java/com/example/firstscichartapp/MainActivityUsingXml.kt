@@ -2,8 +2,7 @@ package com.example.firstscichartapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.ui.AppBarConfiguration
-import com.example.firstscichartapp.databinding.ActivityMainBinding
+import com.example.firstscichartapp.databinding.ActivityMainUsingXmlBinding
 import com.scichart.charting.model.dataSeries.XyDataSeries
 import com.scichart.charting.visuals.SciChartSurface
 import com.scichart.charting.visuals.axes.IAxis
@@ -13,30 +12,16 @@ import com.scichart.core.framework.UpdateSuspender
 import com.scichart.core.model.DoubleValues
 import kotlin.math.sin
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
-
-    init {
-        // <SetRuntimeLicenseKey>
-        SciChartSurface.setRuntimeLicenseKey("")
-        // </SetRuntimeLicenseKey>
-    }
+class MainActivityUsingXml : AppCompatActivity() {
+    private lateinit var binding: ActivityMainUsingXmlBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainUsingXmlBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val surface = findViewById<SciChartSurface>(R.id.surface)
-
-        /*
-        // <AddingSciChartSurfaceFromCode>
-        val surface = SciChartSurface(this)
-        val chartLayout = findViewById<FrameLayout>(R.id.chart_layout)
-        chartLayout.addView(surface)
-        // </AddingSciChartSurfaceFromCode>
-         */
 
         // <AddingAxesToTheSciChartSurface>
         val xAxis: IAxis = NumericAxis(this)
@@ -75,18 +60,14 @@ class MainActivity : AppCompatActivity() {
 
 /*
 // <FinalExampleCode>
-class MainActivity : AppCompatActivity() {
+class MainActivityUsingXml : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-
-    init {
-        SciChartSurface.setRuntimeLicenseKey("")
-    }
+    private lateinit var binding: ActivityMainUsingXmlBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainUsingXmlBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val surface = findViewById<SciChartSurface>(R.id.surface)

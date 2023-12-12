@@ -59,6 +59,7 @@ dependencies {
     implementation "com.google.android.material:compose-theme-adapter:$compose_ui"
 
     // <DeclareSciChartLibariesAsMavenDependencies>
+
     def sciChart_version = "4.5.0.4851"
 
     // Declare SciChart libraries as module dependencies
