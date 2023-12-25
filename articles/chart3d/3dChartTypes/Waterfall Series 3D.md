@@ -154,4 +154,4 @@ In SciChart, it's possible to create real-time **Waterfall 3D Charts** which is 
 > [!NOTE]
 > Examples of the **Real-Time Waterfall 3D Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
 > - [Native Example](https://www.scichart.com/example/xamarin-3d-chart-example-realtime-waterfall/)
-> - [Xamarin Example](https://www.scichart.com/example/android-3d-chart-example-real-time-waterfall/)
+> - [Xamarin Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-add-remove-series/)

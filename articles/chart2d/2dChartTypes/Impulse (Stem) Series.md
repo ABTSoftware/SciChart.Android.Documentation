@@ -7,8 +7,8 @@ Impulse Charts are provided by the <xref:com.scichart.charting.visuals.renderabl
 
 > [!NOTE] 
 > Examples for the **Impulse Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-impulse-stem-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-impulse-stem-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-impulse-stem-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-impulse-stem-chart-example/)
 
 Like the <xref:com.scichart.charting.visuals.renderableSeries.XyScatterRenderableSeries> type, <xref:com.scichart.charting.visuals.renderableSeries.FastImpulseRenderableSeries> requires a shape to be specified for the **Point Markers**. There are several shapes available out of the box, as well as it is possible to define custom shapes of the Point Markers. 
 

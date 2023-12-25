@@ -18,7 +18,7 @@ To achieve that we'd need to perform 2 steps:
 
 > [!NOTE]
 > A complete project of the **Animated Stacked Column Series** example you can find in the [SciChart Android Examples Suite](https://www.scichart.com/examples/ios-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-animating-stacked-column-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-animating-stacked-column-chart-example/)
 
 ## Create transformation
 Creating transformation is fairly simple. We have to create a class that implements an <xref:com.scichart.charting.visuals.renderableSeries.transformation.IRenderPassDataTransformation> protocol and pass an <xref:com.scichart.charting.visuals.renderableSeries.data.ISeriesRenderPassData> type suitable for your Renderable Series. In our case we will subclass an abstract class <xref:com.scichart.charting.visuals.animations.BaseRenderPassDataTransformation>, pass <xref:com.scichart.charting.visuals.renderableSeries.data.StackedColumnRenderPassData> type and implement few required methods.

@@ -87,7 +87,7 @@ To create and configure a <xref:com.scichart.charting.visuals.axes.CategoryDateA
 
 ## See the Axis Types in action
 Please take a look at the examples from the Android Examples Suite listed below to see these axis types in action:
-- [Column Chart](https://www.scichart.com/example/android-column-chart-example/) with <xref:com.scichart.charting.visuals.axes.NumericAxis>
-- [Logarithmic Axis](https://www.scichart.com/example/android-chart-example-logarithmic-axis/) with <xref:com.scichart.charting.visuals.axes.LogarithmicNumericAxis>
-- [Fan Chart](https://www.scichart.com/example/android-chart-example-fan-chart/) with <xref:com.scichart.charting.visuals.axes.DateAxis>
-- [Candlestick Chart](https://www.scichart.com/example/android-candlestick-chart-example/) with <xref:com.scichart.charting.visuals.axes.CategoryDateAxis>
+- [Column Chart](https://www.scichart.com/example/android-chart/android-column-chart-example/) with <xref:com.scichart.charting.visuals.axes.NumericAxis>
+- [Logarithmic Axis](https://www.scichart.com/example/android-chart/android-chart-example-logarithmic-axis/) with <xref:com.scichart.charting.visuals.axes.LogarithmicNumericAxis>
+- [Fan Chart](https://www.scichart.com/example/android-chart/android-chart-example-fan-chart/) with <xref:com.scichart.charting.visuals.axes.DateAxis>
+- [Candlestick Chart](https://www.scichart.com/example/android-chart/android-candlestick-chart-example/) with <xref:com.scichart.charting.visuals.axes.CategoryDateAxis>

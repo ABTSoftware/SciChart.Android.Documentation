@@ -9,7 +9,7 @@ SciChart features a rich **PaletteProvider API** with gives the ability to chang
 
 > [!NOTE]
 > Examples of using **PaletteProvider API** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/Android-chart-example-using-paletteprovider/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-using-paletteprovider/)
 
 To enable series coloring with **PaletteProvider**, you need to create a class which conforms to one of the following (or possibly to all of them):
 - <xref:com.scichart.charting.visuals.renderableSeries.paletteProviders.IStrokePaletteProvider> - allows painting parts of the **series' outline**;
@@ -28,8 +28,8 @@ The following code snippet demonstrates how to create a custom **PaletteProvider
 
 > [!NOTE]
 > The below code is based on the **Line Chart** Example which can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/Android-line-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-line-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-line-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-line-chart-example/)
 
 # [Java](#tab/java)
 [!code-java[CreatePaletteProvider](../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/series2d/PaletteProviderAPI.java#CreatePaletteProvider)]

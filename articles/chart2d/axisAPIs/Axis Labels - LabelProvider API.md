@@ -75,8 +75,8 @@ Let's create custom **LabelProvider** for <xref:com.scichart.charting.visuals.ax
 
 ## More examples of LabelProvider usage
 Several of the SciChart Android Chart Examples use the **LabelProvider**, including the following:
-- [Android Stacked Column Chart Grouped Side by Side](https://www.scichart.com/example/android-chart-stacked-column-chart-grouped-side-by-side-example/)
-- [Android Custom Chart Theme](https://www.scichart.com/example/android-chart-example-create-a-custom-theme/)
+- [Android Stacked Column Chart Grouped Side by Side](https://www.scichart.com/example/android-chart/android-chart-stacked-column-chart-grouped-side-by-side-example/)
+- [Android Custom Chart Theme](https://www.scichart.com/example/android-chart/android-chart-example-create-a-custom-theme/)
 
 ## See Also
 - [Axis Labels - TextFormatting and CursorTextFormatting](xref:axisAPIs.AxisLabelsTextFormattingAndCursorTextFormatting)

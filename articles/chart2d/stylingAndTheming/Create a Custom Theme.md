@@ -3,13 +3,13 @@ uid: "stylingAndTheming.CreateACustomTheme"
 ---
 
 # Create a Custom Theme
-As well as built in themes provided by the ThemeManager, in SciChart you can also define your own [custom theme](https://www.scichart.com/example/android-chart-example-create-a-custom-theme/).
+As well as built in themes provided by the ThemeManager, in SciChart you can also define your own [custom theme](https://www.scichart.com/example/android-chart/android-chart-example-create-a-custom-theme/).
 
 ![Custom Theme](images/custom-theme-example.png)
 
 > [!NOTE]
 > **Custom Theme** example can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-create-a-custom-theme/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-create-a-custom-theme/)
 
 First of all you'll need to define style with new theme in styles.xml:
 

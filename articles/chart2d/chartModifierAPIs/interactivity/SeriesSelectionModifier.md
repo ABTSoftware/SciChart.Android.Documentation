@@ -9,8 +9,8 @@ SciChart features the <xref:com.scichart.charting.modifiers.SeriesSelectionModif
 
 > [!NOTE]
 > Examples of the **SeriesSelectionModifier usage** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-series-selection/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-series-selection-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-series-selection/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-series-selection-example/)
 
 ## SeriesSelectionModifier Usage
 The <xref:com.scichart.charting.modifiers.SeriesSelectionModifier> allows setting of **SelectedSeriesStyle** of <xref:com.scichart.charting.visuals.renderableSeries.IStyle> type, which is applied to a [RenderableSeries](xref:chart2d.2DChartTypes) after it has been selected by the modifier. 

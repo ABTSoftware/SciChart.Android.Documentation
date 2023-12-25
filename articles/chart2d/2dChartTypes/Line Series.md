@@ -10,8 +10,8 @@ Line Series can be created using the <xref:com.scichart.charting.visuals.rendera
 
 > [!NOTE]
 > Examples of the **Line Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples)
-> - [Native Example](https://www.scichart.com/example/android-line-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-line-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-line-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-line-chart-example/)
 
 ### Digital (Step) Line Series
 <xref:com.scichart.charting.visuals.renderableSeries.FastLineRenderableSeries> can be configured to draw as **Digital (Step) Line**. It is achieved via the 

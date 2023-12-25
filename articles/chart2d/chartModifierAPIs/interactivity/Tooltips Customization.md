@@ -14,9 +14,9 @@ We have several examples (listed below) which shows how to customize tooltips fo
 
 > [!NOTE]
 > All examples can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Custom Cursors Example](https://www.scichart.com/example/android-chart-custom-cursors-example/)
-> - [Native Custom RolloverModifier Example](https://www.scichart.com/example/android-chart-custom-rollovermodifier-example/)
-> - [Native Custom Tooltips Example](https://www.scichart.com/example/android-chart-example-custom-tooltips-with-modifiers/)
+> - [Native Custom Cursors Example](https://www.scichart.com/example/android-chart/android-chart-custom-cursors-example/)
+> - [Native Custom RolloverModifier Example](https://www.scichart.com/example/android-chart/android-chart-custom-rollovermodifier-example/)
+> - [Native Custom Tooltips Example](https://www.scichart.com/example/android-chart/android-chart-example-custom-tooltips-with-modifiers/)
 
 To have fully custom tooltip for your modifier, you will need to provide **custom** <xref:com.scichart.charting.visuals.renderableSeries.hitTest.ISeriesInfoProvider> for your **RenderableSeries** via inheriting from <xref:com.scichart.charting.visuals.renderableSeries.hitTest.SeriesInfoProviderBase> which contains some base functionality.
 From there - you might want to override one of the following (or both):
@@ -29,7 +29,7 @@ Let's consider [Customization of Rollover Modifier Tooltips](#customization-of-r
 ![Customization Rollover Modifier](../images/customization-rollover-modifier.png)
 
 > [!NOTE]
-> Full example sources are available in [Android Chart Custom RolloverModifier](https://www.scichart.com/example/android-chart-custom-rollovermodifier-example/)
+> Full example sources are available in [Android Chart Custom RolloverModifier](https://www.scichart.com/example/android-chart/android-chart-custom-rollovermodifier-example/)
 
 First thing, we will need to create custom <xref:com.scichart.charting.visuals.renderableSeries.tooltips.ISeriesTooltip> and implement <xref:com.scichart.charting.visuals.renderableSeries.tooltips.SeriesTooltipBase.internalUpdate(T)> method in which we update tooltip instance based on passed in <xref:com.scichart.charting.visuals.renderableSeries.hitTest.SeriesInfo> instance. 
 Then, in custom <xref:com.scichart.charting.visuals.renderableSeries.hitTest.ISeriesInfoProvider> we override <xref:com.scichart.charting.visuals.renderableSeries.hitTest.SeriesInfoProviderBase.getSeriesTooltipInternal(android.content.Context,TSeriesInfo,java.lang.Class&lt;%3F&gt;)> and provide our custom tooltip for <xref:com.scichart.charting.modifiers.RolloverModifier> type, since we want to customize tooltips only for **RolloverModifier**.
@@ -57,16 +57,16 @@ Let's see the code below:
 ![Customization Tooltip Modifier](../images/customization-tooltip-modifier.png)
 
 > [!NOTE]
-> Full example source code is available in [Android Chart Custom Tooltips](https://www.scichart.com/example/android-chart-example-custom-tooltips-with-modifiers/)
+> Full example source code is available in [Android Chart Custom Tooltips](https://www.scichart.com/example/android-chart/android-chart-example-custom-tooltips-with-modifiers/)
 
 #### Customization of Cursor Modifier Tooltips
 ![Customization Cursor Modifier](../images/customization-cursor-modifier.png)
 
 > [!NOTE]
-> Full example sources is available in [Android Chart Custom Cursors](https://www.scichart.com/example/android-chart-custom-cursors-example/)
+> Full example sources is available in [Android Chart Custom Cursors](https://www.scichart.com/example/android-chart/android-chart-custom-cursors-example/)
 
 ## Axis Tooltips Customization
-Axes tooltips for modifiers are customized the same way as **Series Tooltips** - via custom <xref:com.scichart.charting.visuals.axes.AxisTooltip> and <xref:com.scichart.charting.visuals.axes.IAxisInfoProvider>. Please see the code below, which is from the same [Android Chart Custom RolloverModifier](https://www.scichart.com/example/android-chart-custom-rollovermodifier-example/) example:
+Axes tooltips for modifiers are customized the same way as **Series Tooltips** - via custom <xref:com.scichart.charting.visuals.axes.AxisTooltip> and <xref:com.scichart.charting.visuals.axes.IAxisInfoProvider>. Please see the code below, which is from the same [Android Chart Custom RolloverModifier](https://www.scichart.com/example/android-chart/android-chart-custom-rollovermodifier-example/) example:
 
 # [Java](#tab/java)
 [!code-java[CreateCustomAxisInfoProvider](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityTooltipsCustomization.java#CreateCustomAxisInfoProvider)]

@@ -12,7 +12,7 @@ This article is about how to configure and add PointMarkers 3D to a <xref:com.sc
 > [!NOTE]
 > Examples of **Using PointMarkers API** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/ios-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
 > - [Native Example](https://www.scichart.com/example/android-3d-chart-example-simple-point-cloud/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-simple-point-cloud/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-3d-chart-example-simple-point-cloud/)
 
 ## PointMarker 3D Types
 SciChart provides several **PointMarker 3D** shapes out of the box, which are of 2 types: ***Flat-Texture*** and ***Mesh (Volumetric)*** which can be found below:

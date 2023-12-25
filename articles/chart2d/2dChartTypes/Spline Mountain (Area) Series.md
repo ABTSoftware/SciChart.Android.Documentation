@@ -9,8 +9,8 @@ uid: "chart2d.renderableSeries.SplineMountainSeries"
 
 > [!NOTE] 
 > Examples of the **Spline Mountain Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-spline-mountain-chart/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-spline-mountain-chart/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-spline-mountain-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-spline-mountain-chart-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.SplineMountainRenderableSeries> class allows to specify **Stroke** pen and **Area** brush. Those values can be assigned through the corresponding properties - [strokeStyle](xref:com.scichart.charting.visuals.renderableSeries.BaseRenderableSeries.setStrokeStyle(com.scichart.drawing.common.PenStyle)) and [areaStyle](xref:com.scichart.charting.visuals.renderableSeries.BaseMountainRenderableSeries.setAreaStyle(com.scichart.drawing.common.BrushStyle)) accordingly.
 

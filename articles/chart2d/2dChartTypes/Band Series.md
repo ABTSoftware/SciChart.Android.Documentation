@@ -14,8 +14,8 @@ The **Band Series** can be used to render profit & loss (green / red above or be
 
 > [!NOTE]
 > Examples for the **Band Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-band-series-chart/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-band-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-band-series-chart/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-band-chart-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.FastBandRenderableSeries> class allows to specify **Fill**, **FillY1** brushes and **Stroke**, **StrokeY1** pens via the following properties:
 - [fillBrushStyle](xref:com.scichart.charting.visuals.renderableSeries.BaseBandRenderableSeries.setFillBrushStyle(com.scichart.drawing.common.BrushStyle))

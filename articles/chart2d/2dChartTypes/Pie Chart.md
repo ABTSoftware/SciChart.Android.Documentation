@@ -13,8 +13,8 @@ This value appears drawn on every segment and can be set in code.
 
 > [!NOTE] 
 > Examples of the **Pie Chart** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-pie-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-pie-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-pie-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-pie-chart-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.IPieSegment> allows you to specify different styles to control rendering of the segments, e.g.:
 - [fillStyle](xref:com.scichart.charting.visuals.renderableSeries.IPieSegment.setFillStyle(com.scichart.drawing.common.BrushStyle))
@@ -115,5 +115,5 @@ In SciChart you can have both [Pie Chart](xref:com.scichart.charting.visuals.ren
 
 > [!NOTE] 
 > Examples of the **Multi Pie Donut Chart** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples).
-> - [Native Example](https://www.scichart.com/example/android-chart-nested-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-nested-pie-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-nested-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-nested-pie-chart-example/)

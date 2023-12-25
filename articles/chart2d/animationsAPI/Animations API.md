@@ -57,7 +57,7 @@ There are several animation types provided out of the box in SciChart:
 
 > [!NOTE]
 > Examples which uses **Fade-In** animation can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-using-pointmarkers/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-using-pointmarkers/)
 
 #### Scale Animation
 # [Java](#tab/java)
@@ -75,8 +75,8 @@ There are several animation types provided out of the box in SciChart:
 
 > [!NOTE]
 > Examples which uses **Scale** animation can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-band-series-chart/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-band-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-band-series-chart/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-band-chart-example/)
 
 #### Sweep Animation
 # [Java](#tab/java)
@@ -94,8 +94,8 @@ There are several animation types provided out of the box in SciChart:
 
 > [!NOTE]
 > Examples which uses **Sweep** animation can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-mountain-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-mountain-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-mountain-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-mountain-chart-example/)
 
 #### Wave Animation
 
@@ -114,7 +114,7 @@ There are several animation types provided out of the box in SciChart:
 
 > [!NOTE]
 > Examples which uses **Wave** animation can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-column-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-column-chart-example/)
 
 #### Translate-X Animation
 # [Java](#tab/java)
@@ -209,8 +209,8 @@ Wave transformation is represented by the <xref:com.scichart.charting.visuals.an
 You might want to combine effects of several transformations at the same time without rewriting those into complex transformation. The <xref:com.scichart.charting.visuals.animations.CompositeTransformation> is in SciChart to do just that. It allows to aggregate effects into one transformation (e.g. wave and translate-x)
 
 Let's try to use [Wave](#wave-transformation) and [Translate-X](#translate-transformation) at the same time, to animate [Candlestick Series](xref:chart2d.renderableSeries.CandlestickSeries) based on the **Candlestick Chart** example which can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-- [Native Example](https://www.scichart.com/example/android-candlestick-chart-example/)
-- [Xamarin Example](https://www.scichart.com/example/xamarin-chart-candlestick-chart-example/)
+- [Native Example](https://www.scichart.com/example/android-chart/android-candlestick-chart-example/)
+- [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-candlestick-chart-example/)
 
 # [Java](#tab/java)
 [!code-java[CompositeTransformation](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/series2d/AnimationsAPI.java#CompositeTransformation)]

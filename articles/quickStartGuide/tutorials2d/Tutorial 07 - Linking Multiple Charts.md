@@ -127,10 +127,10 @@ It's just line charts up. See the code below which showcases how to use it:
 ***
 
 We used this technique in our **Multi-Pane Stock Chart** example, which can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-multi-pane-stock-charts-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-multi-pane-stock-charts-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-multi-pane-stock-charts-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-multi-pane-stock-charts-example/)
 
-[Multi Pane Stock Charts](https://www.scichart.com/example/android-chart-multi-pane-stock-charts-example/)
+[Multi Pane Stock Charts](https://www.scichart.com/example/android-chart/android-chart-multi-pane-stock-charts-example/)
 
 ![Multi-Pane Stock Chart](images/tutorials-2d-multi-pane-stock-chart-example.png)
 
@@ -172,6 +172,6 @@ Finally, start exploring. The SciChart Android library and functionality is quit
 You can look into our [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) which are full of 2D and 3D examples, which are also available on our [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples)
 
 For instance - take a look at our **Sync Multi Chart** example, which can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-sync-multi-chart/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-sync-multi-chart/)
 
 ![Sync Multi Chart Example](images/tutorials-2d-sync-multi-chart-example.png)

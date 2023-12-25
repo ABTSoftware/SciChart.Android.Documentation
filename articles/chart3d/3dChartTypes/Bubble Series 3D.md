@@ -13,8 +13,8 @@ It is exactly the same Chart Type that **[Scatter Chart 3D](xref:chart3d.Scatter
 
 > [!NOTE]
 > Examples for the **Bubble Series 3D** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-3d-chart-example-simple-bubble/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-simple-bubble/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-simple-bubble/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-3d-chart-example-simple-bubble/)
 
 There is a special class <xref:com.scichart.charting3d.visuals.renderableSeries.metadataProviders.PointMetadataProvider3D> which stores collection of <xref:com.scichart.charting3d.visuals.renderableSeries.metadataProviders.PointMetadataProvider3D.PointMetadata3D>.
 Is expects to have metadata for each point in your <xref:com.scichart.charting3d.model.dataSeries.IDataSeries3D>.

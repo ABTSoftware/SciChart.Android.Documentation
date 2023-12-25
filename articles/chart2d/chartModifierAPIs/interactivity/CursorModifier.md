@@ -11,8 +11,8 @@ The <xref:com.scichart.charting.modifiers.CursorModifier> is also able to displa
 
 > [!NOTE]
 > Examples of the **CursorModifier** usage can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-using-cursormodifier-tooltips/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-using-cursormodifier-tooltips-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-using-cursormodifier-tooltips/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-using-cursormodifier-tooltips-example/)
 
 ## CursorModifier Usage
 The <xref:com.scichart.charting.modifiers.CursorModifier> allows inspecting [RenderableSeries](xref:chart2d.2DChartTypes) at a touch point. 

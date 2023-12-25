@@ -8,10 +8,10 @@ While creating your [First SciChart Android App](xref:quickStartGuide.projectSet
 ![Multiple Axes Example](images/multiple-axes-example.png)
 
 You can also place axes **in the centre** of the chart or **swap X and Y axes** over to create a **vertical chart**. Please see these examples from the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) for reference:
-- [Multiple X-Axis Chart](https://www.scichart.com/example/android-chart-example-multiple-xaxis/)
-- [Central X Axis and Y Axis](https://www.scichart.com/example/android-chart-example-central-xaxis-and-yaxis/)
-- [Vertical Charts](https://www.scichart.com/example/android-chart-vertical-charts-example/)
-- [Vertically Stacked Y Axes](https://www.scichart.com/example/android-chart-example-vertically-stacked-yaxes/)
+- [Multiple X-Axis Chart](https://www.scichart.com/example/android-chart/android-chart-example-multiple-xaxis/)
+- [Central X Axis and Y Axis](https://www.scichart.com/example/android-chart/android-chart-example-central-xaxis-and-yaxis/)
+- [Vertical Charts](https://www.scichart.com/example/android-chart/android-chart-vertical-charts-example/)
+- [Vertically Stacked Y Axes](https://www.scichart.com/example/android-chart/android-chart-example-vertically-stacked-yaxes/)
 
 Axes can be added to either the [xAxes](xref:com.scichart.charting.visuals.ISciChartSurface.getXAxes()) or [yAxes](xref:com.scichart.charting.visuals.ISciChartSurface.getYAxes()) collection of <xref:com.scichart.charting.visuals.SciChartSurface>. In case of having **multiple X or Y** axes, every axis should have a **unique ID** assigned to it. All axes are positioned on a chart according to their <xref:com.scichart.charting.visuals.axes.AxisAlignment>.
 
@@ -47,7 +47,7 @@ Also, it's possible pointing an axis **inward or outward** relative to the chart
 ![Axes inside the Chart](images/axes-inside-the-chart.png)
 
 > [!NOTE]
-> You might want to create **Vertical(Rotated)** Charts, to learn more - refer to the [Create a Vertical Chart](xref:axisAPIs.AxisAlignmentCreateAVerticalChart) article or the [Vertical Charts example](https://www.scichart.com/example/android-chart-vertical-charts-example/).
+> You might want to create **Vertical(Rotated)** Charts, to learn more - refer to the [Create a Vertical Chart](xref:axisAPIs.AxisAlignmentCreateAVerticalChart) article or the [Vertical Charts example](https://www.scichart.com/example/android-chart/android-chart-vertical-charts-example/).
 
 ## Changing Axis Direction
 You can change **Axis Direction** via [flipCoordinates](xref:com.scichart.charting.visuals.axes.IAxisCore.setFlipCoordinates(boolean)) property. By default it's `false`. Please see the difference below:
@@ -57,12 +57,12 @@ You can change **Axis Direction** via [flipCoordinates](xref:com.scichart.charti
 | ![Default](images/impulse-chart-example.png) | ![Flipped](images/impulse-chart-example-y-flipped.png) |
 
 ## Central Axis
-Placing an axis in the center of a chart is a bit more advanced topic. It requires changes to the layout process in <xref:com.scichart.charting.layoutManagers.ILayoutManager> to specify the exact axis position inside a chart area. Please refer to the [Central Axis](xref:axisAPIs.AxisLayoutCentralAxis) article or the [Central X Axis and Y Axis](https://www.scichart.com/example/android-chart-example-central-xaxis-and-yaxis/) for more info.
+Placing an axis in the center of a chart is a bit more advanced topic. It requires changes to the layout process in <xref:com.scichart.charting.layoutManagers.ILayoutManager> to specify the exact axis position inside a chart area. Please refer to the [Central Axis](xref:axisAPIs.AxisLayoutCentralAxis) article or the [Central X Axis and Y Axis](https://www.scichart.com/example/android-chart/android-chart-example-central-xaxis-and-yaxis/) for more info.
 
 ![Default](images/shifted-axes-example.png)
 
 ## Stacking Multiple Axes Vertically or Horizontally
-It is also possible to configure chart layout to have **axes** placed **one next to another** vertically or horizontally. This requires changes to the layout process in <xref:com.scichart.charting.layoutManagers.ILayoutManager>. Please refer to the [Stack Axes Vertically or Horizontally](xref:axisAPIs.AxisLayoutStackAxesVerticallyOrHorizontally) article or the [Vertically Stacked Y Axes](https://www.scichart.com/example/android-chart-example-vertically-stacked-yaxes/) example for more info.
+It is also possible to configure chart layout to have **axes** placed **one next to another** vertically or horizontally. This requires changes to the layout process in <xref:com.scichart.charting.layoutManagers.ILayoutManager>. Please refer to the [Stack Axes Vertically or Horizontally](xref:axisAPIs.AxisLayoutStackAxesVerticallyOrHorizontally) article or the [Vertically Stacked Y Axes](https://www.scichart.com/example/android-chart/android-chart-example-vertically-stacked-yaxes/) example for more info.
 
 ![Default](images/vertically-stacked-axes-example.png)
 

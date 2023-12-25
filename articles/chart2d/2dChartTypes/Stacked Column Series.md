@@ -17,8 +17,8 @@ There are 2 available collections to work with <xref:com.scichart.charting.visua
 
 > [!NOTE] 
 > Examples of the **Stacked Column Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-stacked-column-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-stacked-column-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-stacked-column-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-stacked-column-chart-example/)
 
 ## How the Stacking Works for Column Series
 For **Stacked Column Series**, it's possible to perform either [Vertical](#vertical-stacking) or [Horizontal](#horizontal-stacking-grouping) stacking, or even **both** at the same time.

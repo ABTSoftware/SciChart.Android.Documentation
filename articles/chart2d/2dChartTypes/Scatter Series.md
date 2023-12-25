@@ -9,8 +9,8 @@ uid: "chart2d.renderableSeries.ScatterSeries"
 
 > [!NOTE] 
 > Examples for the **Scatter Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-scatter-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-scatter-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-scatter-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-scatter-chart-example/)
 
 The Scatter Series requires a shape to be specified for **Point Markers**. SciChart provides several shapes out of the box:
 - <xref:com.scichart.charting.visuals.pointmarkers.CrossPointMarker>; 

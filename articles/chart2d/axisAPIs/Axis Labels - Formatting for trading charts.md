@@ -10,8 +10,8 @@ If you develop some trading application, most likely, your chart will display so
 
 > [!NOTE]
 > Example of the Trading Charts Label Formatter usage can be found in the **Multi-Pane Stock Chart** example in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-multi-pane-stock-charts-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-multi-pane-stock-charts-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-multi-pane-stock-charts-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-multi-pane-stock-charts-example/)
 
 The most suitable type of X-Axis for trading charts is <xref:com.scichart.charting.visuals.axes.CategoryDateAxis>. It uses <xref:com.scichart.charting.numerics.labelProviders.TradeChartAxisLabelProvider> to dynamically change its Text and Cursor Labels depending on Data-value and current zoom.
 

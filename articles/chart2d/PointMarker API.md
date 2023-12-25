@@ -11,7 +11,7 @@ This article is about how to configure and add PointMarkers to a <xref:com.scich
 
 > [!NOTE]
 > Examples of using **PointMarkers API** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-using-pointmarkers/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-using-pointmarkers/)
 
 ## PointMarker Types
 SciChart provides several **PointMarker** shapes out of the box which can be found below:

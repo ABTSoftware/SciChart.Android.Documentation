@@ -9,8 +9,8 @@ SciChart Android 3D features a rich **MetadataProvider API** with gives the abil
 
 > [!NOTE]
 > Examples of using **MetadataProvider API** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-3d-chart-example-surface-mesh-palette-provider/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-surface-mesh-palette-provider/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-surface-mesh-palette-provider/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-3d-chart-example-surface-mesh-palette-provider/)
 
 To enable series coloring with **MetadataProvider**, you need to create a class which conforms to one of the following protocol (or possibly to all of them):
 
@@ -31,7 +31,7 @@ Each **MetadataProvider** protocol declares method(s), which provides a way to u
 Mentioned methods are called every time **RenderableSeries 3D** requires a redraw, so it expects that the colors array should be updated there correspondingly.
 
 For the convenience, there is the <xref:com.scichart.charting3d.visuals.renderableSeries.metadataProviders.MetadataProvider3DBase> class, which provides some basic implementation, so it's recommended to inherit from it while implementing custom **MetadataProvider**. There is also some predefined **MetadataProviders** listed below:
-- <xref:com.scichart.charting3d.visuals.renderableSeries.metadataProviders.DefaultSelectableMetadataProvider3D> - allows provide different colors for selected points. You can find it in our examples which demonstrate selection such as - [***Waterfall Chart 3D***](https://www.scichart.com/example/android-3d-chart-example-simple-waterfall/) and [***Select Scatter Point 3D Chart***](https://www.scichart.com/example/android-3d-chart-example-select-scatter-point/).
+- <xref:com.scichart.charting3d.visuals.renderableSeries.metadataProviders.DefaultSelectableMetadataProvider3D> - allows provide different colors for selected points. You can find it in our examples which demonstrate selection such as - [***Waterfall Chart 3D***](https://www.scichart.com/example/android-3d-chart-example-simple-waterfall/) and [***Select Scatter Point 3D Chart***](https://www.scichart.com/example/android-chart/android-3d-chart-example-select-scatter-point/).
 
 ## Create Custom MetadataProvider
 The following code snippet demonstrates how to create a custom **MetadataProvider** which conforms to the - **Stroke** and **PointMarker** - metadata providers and colors them respectively to the [orbitalYaw](xref:com.scichart.charting3d.visuals.camera.ICameraController.setOrbitalYaw(float)) and [orbitalPitch](xref:com.scichart.charting3d.visuals.camera.ICameraController.setOrbitalPitch(float)).

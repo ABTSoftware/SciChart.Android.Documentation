@@ -81,7 +81,7 @@ As you might guess, converting Pixels to Data-Coordinates and vise versa slightl
 Read on to get better understanding of such conversions.
 
 ### NumericAxis conversions
-The simplest case is the <xref:com.scichart.charting.visuals.axes.NumericAxis>. <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> for NumericAxis works the **data-value** as **double**. So let's take our [Digital Line Chart](https://www.scichart.com/example/android-chart-example-digital-line-chart/) example, and try do some conversions
+The simplest case is the <xref:com.scichart.charting.visuals.axes.NumericAxis>. <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> for NumericAxis works the **data-value** as **double**. So let's take our [Digital Line Chart](https://www.scichart.com/example/android-chart/android-chart-example-digital-line-chart/) example, and try do some conversions
 
 # [Java](#tab/java)
 [!code-java[NumericAxisCoordinateCalculator](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/axisAPIs/AxisAPIsConvertPixelToDataCoordinates.java#NumericAxisCoordinateCalculator)]
@@ -97,7 +97,7 @@ The simplest case is the <xref:com.scichart.charting.visuals.axes.NumericAxis>. 
 > The exact **data-values** and **coordinates** might differ depending on your **visibleRange, viewport** etc...
 
 ### DateAxis conversions
-Similarly to <xref:com.scichart.charting.visuals.axes.NumericAxis> - the <xref:com.scichart.charting.visuals.axes.DateAxis> is quite simple with one difference - it's <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> works with **long representation** of **Date**, which is **[getTime()](https://developer.android.com/reference/java/util/Date#getTime())**. So let's take our [Mountain Line Chart](https://www.scichart.com/example/android-mountain-chart-example/) as an example, and try do some conversions. 
+Similarly to <xref:com.scichart.charting.visuals.axes.NumericAxis> - the <xref:com.scichart.charting.visuals.axes.DateAxis> is quite simple with one difference - it's <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> works with **long representation** of **Date**, which is **[getTime()](https://developer.android.com/reference/java/util/Date#getTime())**. So let's take our [Mountain Line Chart](https://www.scichart.com/example/android-chart/android-mountain-chart-example/) as an example, and try do some conversions. 
 
 > [!NOTE]
 > Since the <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> works with long representation of Date in [getTime()](https://developer.android.com/reference/java/util/Date#getTime()), you will need to do all the needed conversions on your own. See the code below:
@@ -116,7 +116,7 @@ Similarly to <xref:com.scichart.charting.visuals.axes.NumericAxis> - the <xref:c
 > The exact **data-values** and **coordinates** might differ depending on your **visibleRange, viewport** etc...
 
 ### CategoryDateAxis conversions
-<xref:com.scichart.charting.visuals.axes.CategoryDateAxis> is **slightly different**. It's <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> conversion methods works with an integers, which is **the index of a data points** inside an appropriate <xref:com.scichart.charting.model.dataSeries.IDataSeries>. You can convert Date to index and vice versa through the <xref:com.scichart.charting.numerics.labelProviders.ICategoryLabelProvider>. So let's work with our [Candlestick Chart](https://www.scichart.com/example/android-candlestick-chart-example/) as an example, since is has <xref:com.scichart.charting.visuals.axes.CategoryDateAxis>. 
+<xref:com.scichart.charting.visuals.axes.CategoryDateAxis> is **slightly different**. It's <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> conversion methods works with an integers, which is **the index of a data points** inside an appropriate <xref:com.scichart.charting.model.dataSeries.IDataSeries>. You can convert Date to index and vice versa through the <xref:com.scichart.charting.numerics.labelProviders.ICategoryLabelProvider>. So let's work with our [Candlestick Chart](https://www.scichart.com/example/android-chart/android-candlestick-chart-example/) as an example, since is has <xref:com.scichart.charting.visuals.axes.CategoryDateAxis>. 
 
 > [!NOTE]
 > Conversion from Date to Index and vice versa can be performed using the <xref:com.scichart.charting.numerics.labelProviders.ICategoryLabelProvider>. See the code below:
@@ -141,7 +141,7 @@ The view to translate relative to can be obtained calling either the <xref:com.s
 
 ![Pixels vs Data-Coordinates](images/hit-test-api-inner-viewport.png)
 
-The transformation can be done via the <xref:com.scichart.core.framework.IHitTestable.translatePoint(android.graphics.PointF,com.scichart.core.framework.IHitTestable)> method of your <xref:com.scichart.charting.visuals.SciChartSurface> instance. For instance let's take a look at the code snippet from our [Hit-Test API](https://www.scichart.com/example/android-chart-example-hit-test-api/) example:
+The transformation can be done via the <xref:com.scichart.core.framework.IHitTestable.translatePoint(android.graphics.PointF,com.scichart.core.framework.IHitTestable)> method of your <xref:com.scichart.charting.visuals.SciChartSurface> instance. For instance let's take a look at the code snippet from our [Hit-Test API](https://www.scichart.com/example/android-chart/android-chart-example-hit-test-api/) example:
 
 # [Java](#tab/java)
 [!code-java[TransformingPixels](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/axisAPIs/AxisAPIsConvertPixelToDataCoordinates.java#TransformingPixels)]

@@ -12,8 +12,8 @@ Bubble Chart is provided by the <xref:com.scichart.charting.visuals.renderableSe
 
 > [!NOTE] 
 > Examples for the **Bubble Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-bubble-chart-demo/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-bubble-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-bubble-chart-demo/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-bubble-chart-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.FastBubbleRenderableSeries> class allows to specify BubbleBrush and Stroke via the following properties:
 - [bubbleBrushStyle](xref:com.scichart.charting.visuals.renderableSeries.FastBubbleRenderableSeries.setBubbleBrushStyle(com.scichart.drawing.common.BrushStyle))

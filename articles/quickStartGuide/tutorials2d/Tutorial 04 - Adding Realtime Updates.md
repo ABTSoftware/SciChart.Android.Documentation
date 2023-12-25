@@ -143,6 +143,6 @@ Our documentation contains lots of useful information, some of the articles you 
 Finally, start exploring. The SciChart Android library and functionality is quite extensive. 
 You can look into our [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) which are full of 2D and 3D examples, which are also available on our [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples)
 
-In particular, you might want to take a look at our [Fifo Scrolling Chart](https://www.scichart.com/example/android-realtime-scrolling-charts-example/):
+In particular, you might want to take a look at our [Fifo Scrolling Chart](https://www.scichart.com/example/android-chart/android-realtime-scrolling-charts-example/):
 
 <video autoplay loop muted playsinline src="images/fifo-scrolling-chart-example.mp4"></video>

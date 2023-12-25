@@ -9,11 +9,11 @@ The <xref:com.scichart.charting.visuals.annotations.CustomAnnotation> allows to 
 
 > [!NOTE]
 > Examples of the **Annotations** usage can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Android Chart Annotations Example](https://www.scichart.com/example/android-chart-annotations-example/)
-> - [Native Android Chart Interactive Annotations Example](https://www.scichart.com/example/android-chart-interaction-with-annotations-example/)
+> - [Native Android Chart Annotations Example](https://www.scichart.com/example/android-chart/android-chart-annotations-example/)
+> - [Native Android Chart Interactive Annotations Example](https://www.scichart.com/example/android-chart/android-chart-interaction-with-annotations-example/)
 >
-> - [Xamarin Android Chart Annotations Example](https://www.scichart.com/example/xamarin-chart-annotations-example/)
-> - [Xamarin Android Chart Interactive Annotations Example](https://www.scichart.com/example/xamarin-chart-interaction-with-annotations-example/)
+> - [Xamarin Android Chart Annotations Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-annotations-example/)
+> - [Xamarin Android Chart Interactive Annotations Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-interaction-with-annotations-example/)
 
 You can place any [Android View](https://developer.android.com/reference/android/view/View) by passing it into the <xref:com.scichart.charting.visuals.annotations.CustomAnnotation.setContentView(android.view.View)> method or an layout id into the <xref:com.scichart.charting.visuals.annotations.CustomAnnotation.setContentId(int)> method..
 

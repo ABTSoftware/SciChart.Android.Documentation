@@ -37,7 +37,7 @@ Also, you might guess, converting World to Data-Coordinates and vice versa sligh
 Read on to get better understanding of such conversions.
 
 ### NumericAxis3D conversions
-The simplest case is the <xref:com.scichart.charting3d.visuals.axes.NumericAxis3D>. <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> for NumericAxis 3D works the **data-value** as **double**. So let's take our [Android 3D Simple Scatter Chart](https://www.scichart.com/example/android-3d-chart-example-simple-scatter/) example, and try do some conversions
+The simplest case is the <xref:com.scichart.charting3d.visuals.axes.NumericAxis3D>. <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> for NumericAxis 3D works the **data-value** as **double**. So let's take our [Android 3D Simple Scatter Chart](https://www.scichart.com/example/android-chart/android-3d-chart-example-simple-scatter/) example, and try do some conversions
 
 ![Scatter Chart 3D](images/scatter-chart-3d-example.png)
 
@@ -55,7 +55,7 @@ The simplest case is the <xref:com.scichart.charting3d.visuals.axes.NumericAxis3
 > The exact **data-values** and **coordinates** might differ depending on your **visibleRange, viewport** etc...
 
 ### DateAxis3D conversions
-Similarly to <xref:com.scichart.charting3d.visuals.axes.NumericAxis3D> - the <xref:com.scichart.charting3d.visuals.axes.DateAxis3D> is quite simple with one difference - it's <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> works with **long representation** of **Date**, which is **[getTime()](https://developer.android.com/reference/java/util/Date#getTime())**. So let's take our [Android 3D Date Axis3D](https://www.scichart.com/example/android-3d-chart-example-date-axis/) as an example, and try do some conversions. 
+Similarly to <xref:com.scichart.charting3d.visuals.axes.NumericAxis3D> - the <xref:com.scichart.charting3d.visuals.axes.DateAxis3D> is quite simple with one difference - it's <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> works with **long representation** of **Date**, which is **[getTime()](https://developer.android.com/reference/java/util/Date#getTime())**. So let's take our [Android 3D Date Axis3D](https://www.scichart.com/example/android-chart/android-3d-chart-example-date-axis/) as an example, and try do some conversions. 
 
 > [!NOTE]
 > Since the <xref:com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator> works with long representation of Date in [getTime()](https://developer.android.com/reference/java/util/Date#getTime()), you will need to do all the needed conversions on your own. See the code below:

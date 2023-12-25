@@ -9,8 +9,8 @@ uid: "chart3d.ScatterSeries3D"
 
 > [!NOTE]
 > Examples for the **Scatter Series 3D** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/ios-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-3d-chart-example-simple-scatter/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-simple-scatter/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-simple-scatter/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-3d-chart-example-simple-scatter/)
 
 The Scatter Series 3D requires a shape to be specified using the **Point Markers 3D**. SciChart provides several shapes out of the box:
 
