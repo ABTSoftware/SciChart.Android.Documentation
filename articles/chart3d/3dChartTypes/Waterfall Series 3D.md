@@ -14,7 +14,7 @@ As an example, it can be used for the following:
 ![Waterfall 3D Series Type](images/waterfall-series-3d-example.png)
 
 > [!NOTE]
-> Examples of the **Waterfall 3D Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
+> Examples of the **Waterfall 3D Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
 > - [Native Example](https://www.scichart.com/example/android-3d-chart-example-simple-waterfall/)
 > - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-simple-waterfall/)
 
@@ -152,6 +152,6 @@ In SciChart, it's possible to create real-time **Waterfall 3D Charts** which is 
 <video autoplay loop muted playsinline src="images/waterfall-series-3d-realtime-example.mp4"></video>
 
 > [!NOTE]
-> Examples of the **Real-Time Waterfall 3D Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
+> Examples of the **Real-Time Waterfall 3D Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
 > - [Native Example](https://www.scichart.com/example/xamarin-3d-chart-example-realtime-waterfall/)
 > - [Xamarin Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-add-remove-series/)
