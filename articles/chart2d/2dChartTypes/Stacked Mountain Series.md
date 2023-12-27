@@ -12,8 +12,8 @@ The **Stacked Mountain** series can be created by using <xref:com.scichart.chart
 
 > [!NOTE] 
 > Examples of the **Stacked Mountain Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-stacked-mountain-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-stacked-mountain-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-stacked-mountain-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-stacked-mountain-chart-example/)
 
 ## How the Stacking Works for Mountain Series
 Stacking Mountain series is handled by special renderableSeries - <xref:com.scichart.charting.visuals.renderableSeries.VerticallyStackedSeriesCollection>.

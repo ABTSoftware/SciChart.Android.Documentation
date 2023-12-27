@@ -27,7 +27,7 @@ To call the **Hit-Test** method, use the following code:
 
 > [!NOTE]
 > You can see hit-test in action, in our full **Hit-Test API** example, which be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-hit-test-api/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-hit-test-api/)
 
 ## The Hit-Test Results
 The <xref:com.scichart.charting.visuals.renderableSeries.hitTest.HitTestInfo> which is used for **Hit-Test** contains some useful properties to determine what point was touched.

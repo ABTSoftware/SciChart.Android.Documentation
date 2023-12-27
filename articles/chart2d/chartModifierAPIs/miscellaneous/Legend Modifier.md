@@ -9,8 +9,8 @@ In SciChart, the easiest way to add a **Legend** onto a chart is to use a <xref:
 
 > [!NOTE]
 > Example of the **LegendModifier usage** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-legends-api-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-with-legends-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-legends-api-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-with-legends-example/)
 
 The <xref:com.scichart.charting.modifiers.LegendModifier> class exposes several **configurational** properties. Please find them explained in the table below:
 

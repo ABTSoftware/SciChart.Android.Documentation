@@ -10,11 +10,11 @@ SciChart features a rich **Annotations API**, that allows you to place different
 
 > [!NOTE]
 > Examples of the **Annotations** usage can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Android Chart Annotations Example](https://www.scichart.com/example/android-chart-annotations-example/)
-> - [Native Android Chart Interactive Annotations Example](https://www.scichart.com/example/android-chart-interaction-with-annotations-example/)
+> - [Native Android Chart Annotations Example](https://www.scichart.com/example/android-chart/android-chart-annotations-example/)
+> - [Native Android Chart Interactive Annotations Example](https://www.scichart.com/example/android-chart/android-chart-interaction-with-annotations-example/)
 >
-> - [Xamarin Android Chart Annotations Example](https://www.scichart.com/example/xamarin-chart-annotations-example/)
-> - [Xamarin Android Chart Interactive Annotations Example](https://www.scichart.com/example/xamarin-chart-interaction-with-annotations-example/)
+> - [Xamarin Android Chart Annotations Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-annotations-example/)
+> - [Xamarin Android Chart Interactive Annotations Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-interaction-with-annotations-example/)
 
 There are many different **Annotations** provided by SciChart and each one deserves an article by itself! 
 This article is concerned with simply giving **an overview of the annotations** and where you can find the examples in our [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) which demonstrate them.
@@ -118,5 +118,5 @@ As mentioned [above](#common-annotations-features) - that's can be controlled vi
 
 > [!NOTE]
 > This is demonstrated in the **Interaction with Annotations** example which can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-interaction-with-annotations-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-interaction-with-annotations-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-interaction-with-annotations-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-interaction-with-annotations-example/)

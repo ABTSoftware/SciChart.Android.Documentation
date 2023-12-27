@@ -12,8 +12,8 @@ The **OHLC series** are provided by the <xref:com.scichart.charting.visuals.rend
 
 > [!NOTE]
 > Examples of the **OHLC Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-realtime-ticking-stock-charts/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-realtime-ticking-stock-charts-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-realtime-ticking-stock-charts/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-realtime-ticking-stock-charts-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.FastOhlcRenderableSeries> is very much alike the <xref:com.scichart.charting.visuals.renderableSeries.FastCandlestickRenderableSeries> class. It allows to specify **StrokeUp** and **StrokeDown** pens as well as relative **DataPointWidth**, which will be applied to every bar. Mentioned settings can be accessed via the following properties:
 - [strokeUpStyle](xref:com.scichart.charting.visuals.renderableSeries.OhlcRenderableSeriesBase.setStrokeUpStyle(com.scichart.drawing.common.PenStyle)) - applied to bars when **Close <= Open**. 

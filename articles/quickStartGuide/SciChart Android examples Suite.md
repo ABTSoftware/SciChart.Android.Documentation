@@ -9,7 +9,7 @@ We have created a rich **interactive examples application demo** to showcase the
 We also believe this application will be a good learning tool, where each little simple example will teach you piece by piece how to use the library to achieve what you need to do. 
 
 ### The Demo application contains: 
-- Approximately 80+ Rich of Android native examples showcasing the features of [SciChart Android Charts](https://www.scichart.com/Android-chart-features/);
+- Approximately 80+ Rich of Android native examples showcasing the features of [SciChart Android Charts](https://www.scichart.com/android-chart-features/);
 - Search keying on a tag, example title, description, and source code;
 - View source in the example application and links to GitHub.
 

@@ -9,8 +9,8 @@ uid: "chart2d.renderableSeries.SplineLineSeries"
 
 > [!NOTE] 
 > Examples of the **Spline Line Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-spline-line-chart/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-spline-line-chart/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-spline-line-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-spline-line-chart-example/)
 
 ## Create a Spline Line Series
 To create a <xref:com.scichart.charting.visuals.renderableSeries.SplineLineRenderableSeries>, use the following code:

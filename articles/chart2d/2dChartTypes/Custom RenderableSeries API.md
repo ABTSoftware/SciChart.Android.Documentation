@@ -58,5 +58,5 @@ We have an example which shows how to create a rounded column series with this *
 
 > [!NOTE]
 > The full **Rounded Column Chart** example can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/Android-chart-custom-series-rounded-column/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-custom-series-rounded-column-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-custom-series-rounded-column-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-custom-series-rounded-column-example/)

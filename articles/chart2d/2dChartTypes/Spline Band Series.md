@@ -14,8 +14,8 @@ The **Spline Band Series** can be used to render profit & loss (green / red abov
 
 > [!NOTE]
 > Examples for the **Spline Band Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-spline-band-chart/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-spline-band-chart/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-spline-band-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-spline-band-chart-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.SplineBandRenderableSeries> class allows to specify **Fill**, **FillY1** brushes and **Stroke**, **StrokeY1** pens via the following properties:
 - [fillBrushStyle](xref:com.scichart.charting.visuals.renderableSeries.BaseBandRenderableSeries.setFillBrushStyle(com.scichart.drawing.common.BrushStyle))

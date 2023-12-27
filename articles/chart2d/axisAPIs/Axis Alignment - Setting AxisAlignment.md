@@ -13,7 +13,7 @@ SciChart supports **unlimited, multiple X or Y** axes which can be aligned to th
 [!code-swift[AddAxisAlignment](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/axisAPIs/AxisAlignmentSettingAxisAlignment.kt#AddAxisAlignment)]
 ***
 
-The above code results in the following view. Also please see our [Multiple X-Axis Chart](https://www.scichart.com/example/android-chart-example-multiple-xaxis/). 
+The above code results in the following view. Also please see our [Multiple X-Axis Chart](https://www.scichart.com/example/android-chart/android-chart-example-multiple-xaxis/). 
 
 ![Axis Alignment](images/axis-alignment.png)
 

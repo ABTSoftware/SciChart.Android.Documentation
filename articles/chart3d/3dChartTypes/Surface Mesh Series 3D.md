@@ -14,8 +14,8 @@ In SciChart it's defined by the <xref:com.scichart.charting3d.visuals.renderable
 
 > [!NOTE]
 > Examples of the [***Surface Mesh 3D***]() Series can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-3d-chart-example-simple-uniform-mesh/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-simple-uniform-mesh/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-simple-uniform-mesh/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-3d-chart-example-simple-uniform-mesh/)
 
 In the Surface Mesh 3D Series, the data is stored in the <xref:com.scichart.charting3d.model.dataSeries.grid.UniformGridDataSeries3D>.
 This represents a ***2-dimensional grid***, typically of type `double`.
@@ -220,5 +220,5 @@ It is showcased in our **Surface mesh 3D with Metadata provider** example. Let's
 
 > [!NOTE]
 > Examples of using **MetadataProvider API** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-3d-chart-example-surface-mesh-palette-provider/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-surface-mesh-palette-provider/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-surface-mesh-palette-provider/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-3d-chart-example-surface-mesh-palette-provider/)

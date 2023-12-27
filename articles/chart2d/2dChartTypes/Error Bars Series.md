@@ -12,8 +12,8 @@ In SciChart, Error Bar Series is represented by the <xref:com.scichart.charting.
 
 > [!NOTE] 
 > Examples for the **Error Bars Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-error-bars/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-error-bars-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-error-bars/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-error-bars-chart-example/)
 
 **Error Bar Series** allow to render error bars for every data point. There are few main properties which allow to control how Error Bars are rendered:
 - [errorDirection](xref:com.scichart.charting.visuals.renderableSeries.FastErrorBarsRenderableSeries.setErrorDirection(com.scichart.charting.visuals.renderableSeries.ErrorDirection)) - allows rendering either Vertical or Horizontal error via the <xref:com.scichart.charting.visuals.renderableSeries.ErrorDirection> enumeration.

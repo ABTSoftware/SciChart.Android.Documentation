@@ -12,8 +12,8 @@ The **Candlestick charts** are provided by the <xref:com.scichart.charting.visua
 
 > [!NOTE] 
 > Examples of the **Candlestick Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-candlestick-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-candlestick-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-candlestick-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-candlestick-chart-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.FastCandlestickRenderableSeries> is very much alike the <xref:com.scichart.charting.visuals.renderableSeries.FastOhlcRenderableSeries> class. It allows to specify **FillUp** and **FillDown** brushes, **StrokeUp** and **StrokeDown** pens via the following properties:
 - [fillUpBrushStyle](xref:com.scichart.charting.visuals.renderableSeries.FastCandlestickRenderableSeries.setFillUpBrushStyle(com.scichart.drawing.common.BrushStyle))

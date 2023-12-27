@@ -10,8 +10,8 @@ The <xref:com.scichart.charting.modifiers.SeriesValueModifier> is a custom Chart
 
 > [!NOTE]
 > Examples of the **SeriesValueModifier usage** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-series-value-modifier-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-series-value-modifier-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-series-value-modifier-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-series-value-modifier-example/)
 
 ## Adding the SeriesValueModifier to a Chart
 Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to a <xref:com.scichart.charting.visuals.SciChartSurface>](xref:chartModifierAPIs.ChartModifierAPIs#adding-a-chart-modifier) via the [chartModifiers](xref:com.scichart.charting.visuals.ISciChartSurface.getChartModifiers()) property and <xref:com.scichart.charting.modifiers.SeriesValueModifier> is no different.

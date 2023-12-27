@@ -38,6 +38,6 @@ Most of the time, you don't need to set <xref:com.scichart.data.numerics.Resampl
 ***
 
 ## Resampling Performance
-Resampling makes drawing many millions of points possible with SciChart. For instance, in the [Performance Demo](https://www.scichart.com/example/android-chart-realtime-performance-demo/) example, we push 1000 points every 10ms to three series on a chart. The point count quickly rises to the millions of points, and SciChart is still rendering at interactive rates. Also, the example allows to play around with different <xref:com.scichart.data.numerics.ResamplingMode> and see their impact on performance.
+Resampling makes drawing many millions of points possible with SciChart. For instance, in the [Performance Demo](https://www.scichart.com/example/android-chart/android-chart-realtime-performance-demo/) example, we push 1000 points every 10ms to three series on a chart. The point count quickly rises to the millions of points, and SciChart is still rendering at interactive rates. Also, the example allows to play around with different <xref:com.scichart.data.numerics.ResamplingMode> and see their impact on performance.
 
 In addition, we compared performance of the most popular Android charting packages with SciChart. The results can be found in the [Performance Comparison](https://www.scichart.com/android-chart-performance-comparison/) article.

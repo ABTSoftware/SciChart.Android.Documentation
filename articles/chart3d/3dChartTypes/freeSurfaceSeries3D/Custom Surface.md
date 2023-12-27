@@ -34,8 +34,8 @@ Some of the <xref:com.scichart.charting3d.model.dataSeries.freeSurface.CustomSur
 
 > [!NOTE]
 > Examples for the **Custom Free Surface 3D** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-3d-chart-example-create-custom-free-surface/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-3d-chart-example-create-custom-free-surface/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-3d-chart-example-create-custom-free-surface/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-3d-chart-example-create-custom-free-surface/)
 
 Let's see some examples of declaring some **3D Free Surfaces**:
 - [Custom Free Surface 3D](#create-a-custom-free-surface-3d-chart)

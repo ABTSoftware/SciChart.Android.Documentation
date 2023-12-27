@@ -26,6 +26,6 @@ Let's try implement that and apply newly created layout strategy to a <xref:com.
 [!code-swift[UseLeftAlignedOuterVerticallyStackedYAxisLayoutStrategy](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/axisAPIs/AxisLayoutStackAxesVerticallyOrHorizontally.kt#UseLeftAlignedOuterVerticallyStackedYAxisLayoutStrategy)]
 ***
 
-Please refer to the [Vertically Stacked Y Axes](https://www.scichart.com/example/android-chart-example-vertically-stacked-yaxes/) to find the complete code sample.
+Please refer to the [Vertically Stacked Y Axes](https://www.scichart.com/example/android-chart/android-chart-example-vertically-stacked-yaxes/) to find the complete code sample.
 
 For more examples of **custom axes layouts**, please refer to the [Central Axis](xref:axisAPIs.AxisLayoutCentralAxis) article.

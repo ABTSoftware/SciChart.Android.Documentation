@@ -72,6 +72,6 @@ To create and configure a <xref:com.scichart.charting3d.visuals.axes.DateAxis3D>
 
 ## See the Axis 3D Types in action
 Please take a look at the examples from the [Android Examples Suite](https://www.scichart.com/examples/Android-chart/) listed below to see these axis 3D types in action:
-- [Android 3D Custom Free Surface Chart](https://www.scichart.com/example/android-3d-chart-example-create-custom-free-surface/) with <xref:com.scichart.charting3d.visuals.axes.NumericAxis3D>
-- [Android 3D Logarithmic Axis](https://www.scichart.com/example/android-3d-example-logarithmic-axis/) with <xref:com.scichart.charting3d.visuals.axes.LogarithmicNumericAxis3D>
-- [Android 3D Date Axis3D](https://www.scichart.com/example/android-3d-chart-example-date-axis/) with <xref:com.scichart.charting3d.visuals.axes.DateAxis3D>
+- [Android 3D Custom Free Surface Chart](https://www.scichart.com/example/android-chart/android-3d-chart-example-create-custom-free-surface/) with <xref:com.scichart.charting3d.visuals.axes.NumericAxis3D>
+- [Android 3D Logarithmic Axis](https://www.scichart.com/example/android-chart/android-3d-example-logarithmic-axis/) with <xref:com.scichart.charting3d.visuals.axes.LogarithmicNumericAxis3D>
+- [Android 3D Date Axis3D](https://www.scichart.com/example/android-chart/android-3d-chart-example-date-axis/) with <xref:com.scichart.charting3d.visuals.axes.DateAxis3D>

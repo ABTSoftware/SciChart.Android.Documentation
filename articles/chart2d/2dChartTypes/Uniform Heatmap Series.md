@@ -13,8 +13,8 @@ This is designed to display **2D array of data** with real values. Every item in
 
 > [!NOTE]
 > Examples for the **Uniform Heatmap Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-heatmap-chart-example/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-heatmap-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-heatmap-chart-example/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-heatmap-chart-example/)
 
 Uniform heatmaps are **extremely fast**, **lightweight** series types for rendering two dimensional data as a heatmap or spectrogram. As mentioned above - the <xref:com.scichart.charting.visuals.renderableSeries.FastUniformHeatmapRenderableSeries> type should be used in conjunction with a <xref:com.scichart.charting.model.dataSeries.UniformHeatmapDataSeries>, when you simply want to specify a *Step* in the `X, Y` direction (each cell is the same size).
 

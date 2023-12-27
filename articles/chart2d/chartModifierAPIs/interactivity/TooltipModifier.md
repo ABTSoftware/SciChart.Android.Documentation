@@ -12,8 +12,8 @@ Tooltips may be added to the <xref:com.scichart.charting.visuals.SciChartSurface
 
 > [!NOTE]
 > Examples of the **TooltipModifier usage** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-chart-example-using-tooltipmodifier-tooltips/)
-> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart-using-tooltipmodifier-tooltips-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-chart-example-using-tooltipmodifier-tooltips/)
+> - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-using-tooltipmodifier-tooltips-example/)
 
 ## TooltipModifier Usage
 The <xref:com.scichart.charting.modifiers.TooltipModifier> allows inspecting [RenderableSeries](xref:chart2d.2DChartTypes) at a touch point. 

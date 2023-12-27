@@ -55,7 +55,7 @@ As the result, the **X Axis** should be placed **at the center** of a chart. It 
 ![Pinned Central Axis](images/pinned-central-axis.png)
 
 ## Floating Axes
-Another possible scenario, **floating axes**, can be found in the example called [Central X Axis and Y Axis](https://www.scichart.com/example/android-chart-example-central-xaxis-and-yaxis/) from the [SciChart Android Example Suite](https://www.scichart.com/examples/Android-chart/).
+Another possible scenario, **floating axes**, can be found in the example called [Central X Axis and Y Axis](https://www.scichart.com/example/android-chart/android-chart-example-central-xaxis-and-yaxis/) from the [SciChart Android Example Suite](https://www.scichart.com/examples/Android-chart/).
 
 In this case each axis is pinned to 0 value of the other axis. To achieve this, the pixel coordinate of the `0` data value is looked for during every layout pass, using the [Coordinate Transformation API](xref:axisAPIs.AxisAPIsConvertPixelToDataCoordinates):
 
@@ -67,7 +67,7 @@ In this case each axis is pinned to 0 value of the other axis. To achieve this, 
 [!code-swift[CreateCenteredTopAlignmentInnerAxisLayoutStrategy](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/axisAPIs/AxisLayoutCentralAxis.kt#CreateCenteredTopAlignmentInnerAxisLayoutStrategy)]
 ***
 
-As it can be seen in the example, both axes are **pinned to a given data value**, not to a specific position inside the chart area. Thus they will adjust their positions accordingly to VisibleRange changes. Please refer to the [Central X Axis and Y Axis Example](https://www.scichart.com/example/android-chart-example-central-xaxis-and-yaxis/) to find the complete code sample.
+As it can be seen in the example, both axes are **pinned to a given data value**, not to a specific position inside the chart area. Thus they will adjust their positions accordingly to VisibleRange changes. Please refer to the [Central X Axis and Y Axis Example](https://www.scichart.com/example/android-chart/android-chart-example-central-xaxis-and-yaxis/) to find the complete code sample.
 
 ![Floating Central Axis](images/floating-central-axis.png)
 

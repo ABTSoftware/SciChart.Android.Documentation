@@ -7,7 +7,7 @@ Column Chart is provided by the <xref:com.scichart.charting.visuals.renderableSe
 
 > [!NOTE] 
 > Examples for the **Column Series** can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
-> - [Native Example](https://www.scichart.com/example/android-column-chart-example/)
+> - [Native Example](https://www.scichart.com/example/android-chart/android-column-chart-example/)
 
 The <xref:com.scichart.charting.visuals.renderableSeries.FastColumnRenderableSeries> class allows to specify **Fill** brush, **Stroke** pen and relative **DataPointWidth** which will be applied to every column. You can also choose the <xref:com.scichart.drawing.common.TextureMappingMode> for Fill brush which defines how columns are filled when a gradient is used. The **DataPointWidth** specifies how much space a single column occupies, varying from 0 to 1 (when columns are conjoined). 
 
@@ -53,4 +53,4 @@ It's possible to render a Gap in **Column series**, by passing a data point with
 In SciChart, you can draw each column of the **Column Series** with different colors using the [PaletteProvider API](xref:chart2d.PaletteProviderAPI). 
 To use palette provider for Columns - a custom <xref:com.scichart.charting.visuals.renderableSeries.paletteProviders.IFillPaletteProvider> (or <xref:com.scichart.charting.visuals.renderableSeries.paletteProviders.IStrokePaletteProvider>) has to be provided to the [paletteProvider](xref:com.scichart.charting.visuals.renderableSeries.IRenderableSeries.setPaletteProvider(com.scichart.charting.visuals.renderableSeries.paletteProviders.IPaletteProvider)) property. 
 
-Please see the code snippet from our [Column Chart Example](https://www.scichart.com/example/android-column-chart-demo/). For more information - please refer to the [PaletteProvider API](xref:chart2d.PaletteProviderAPI) article.
+Please see the code snippet from our [Column Chart Example](https://www.scichart.com/example/android-chart/android-column-chart-example/). For more information - please refer to the [PaletteProvider API](xref:chart2d.PaletteProviderAPI) article.

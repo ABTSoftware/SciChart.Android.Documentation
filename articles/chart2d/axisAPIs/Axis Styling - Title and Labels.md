@@ -31,7 +31,7 @@ The <xref:com.scichart.drawing.common.FontStyle> object can be applied to axis l
 
 Also, there is <xref:com.scichart.charting.visuals.axes.AxisTickLabelStyle> available for controlling **alignment**, **margin** and **rotation angle** of each Label during rendering.
 
-Let's try to modify our [Multiple X-Axis Chart Example](https://www.scichart.com/example/android-chart-example-multiple-xaxis/) with the following code, and see what we can achieve:
+Let's try to modify our [Multiple X-Axis Chart Example](https://www.scichart.com/example/android-chart/android-chart-example-multiple-xaxis/) with the following code, and see what we can achieve:
 
 # [Java](#tab/java)
 [!code-java[SetAxisLabels](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/axisAPIs/AxisStylingTitleAndLabels.java#SetAxisLabels)]
