@@ -19,6 +19,10 @@ There are several modes defined by the <xref:com.scichart.charting.ClipMode> enu
 - <xref:com.scichart.charting.ClipMode.ClipAtMax> - Forces the panning operation to stop suddenly at the maximum of the data, but expand at the minimum.
 - <xref:com.scichart.charting.ClipMode.ClipAtExtents> - Forces the panning operation to stop suddenly at the extents of the data.
 
+There are two touch events defined by the <xref:com.scichart.charting.modifiers.behaviors.GestureState> enumeration, which can be used to get or set current interaction state of the surface:
+- INTERACTED means surface has been interacted with touch, swipe or zoom events.
+- NOT_INTERACTED means surface does not have any interactions or has been reset.
+
 ## Adding a ZoomPanModifier to a Chart
 Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to a <xref:com.scichart.charting.visuals.SciChartSurface>](xref:chartModifierAPIs.ChartModifierAPIs#adding-a-chart-modifier) via the [chartModifiers](xref:com.scichart.charting.visuals.ISciChartSurface.getChartModifiers()) property and <xref:com.scichart.charting.modifiers.ZoomPanModifier> is no difference:
 

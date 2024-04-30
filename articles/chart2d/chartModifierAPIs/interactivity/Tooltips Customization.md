@@ -82,3 +82,6 @@ Axes tooltips for modifiers are customized the same way as **Series Tooltips** -
 ***
 
 ![Custom Axis Tooltip](../images/custom-axis-tooltip.png)
+
+> [!NOTE]
+> To allow or prevent modifiers when inside a scroll view, please visit the [isDisallowInterceptTouchEvent](xref:com.scichart.charting.visuals.SciChartSurface.isDisallowInterceptTouchEvent()) api.
