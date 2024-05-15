@@ -23,6 +23,8 @@ There are two touch events defined by the <xref:com.scichart.charting.modifiers.
 - INTERACTED means surface has been interacted with touch, swipe or zoom events.
 - NOT_INTERACTED means surface does not have any interactions or has been reset.
 
+When using SciChartSurface with ChartModifiers inside a ScrollView, you can manage zoom and pan gestures by utilizing the isDisallowInterceptTouchEvent property. This allows you to control whether the ScrollView should intercept touch events or let the SciChartSurface handle them. Example can be found on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples/blob/SciChart_v4_Release/app/src/main/java/com/scichart/examples/fragments/examples2d/tooltipsAndHitTest/ChartInsideScrollViewFragment.java)
+
 ## Adding a ZoomPanModifier to a Chart
 Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to a <xref:com.scichart.charting.visuals.SciChartSurface>](xref:chartModifierAPIs.ChartModifierAPIs#adding-a-chart-modifier) via the [chartModifiers](xref:com.scichart.charting.visuals.ISciChartSurface.getChartModifiers()) property and <xref:com.scichart.charting.modifiers.ZoomPanModifier> is no difference:
 
