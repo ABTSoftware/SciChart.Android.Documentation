@@ -16,6 +16,9 @@
 - name: "Axis Ranging - How to listen to VisibleRange Changes"
   href: "Axis Ranging - How to listen to VisibleRange Changes.md"
 
+- name: "Axis Labels - Rotation and Axis size"
+  href: "Axis Labels - Rotation and Axis size.md"
+
 - name: "Axis Labels - TextFormatting and CursorTextFormatting"
   href: "Axis Labels - TextFormatting and CursorTextFormatting.md"
 
