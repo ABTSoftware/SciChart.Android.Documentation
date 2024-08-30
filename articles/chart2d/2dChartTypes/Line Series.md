@@ -47,7 +47,7 @@ Every data point of a **Line Series** can be marked with a <xref:com.scichart.ch
 To learn more about **Point Markers**, please refer to the [PointMarkers API](xref:chart2d.PointMarkerAPI) article.
 
 > [!NOTE]
-> This feature can be used to create a [Scatter Series](xref:chart2d.renderableSeries.ScatterSeries), if [strokeStyle](xref:com.scichart.charting.visuals.renderableSeries.IRenderableSeries.setStrokeStyle(com.scichart.drawing.common.PenStyle)) contains a **transparent Pen**.
+> If we do not need lines then we can use [Scatter Series](xref:chart2d.renderableSeries.ScatterSeries).
 
 #### Paint Line Segments With Different Colors
 In SciChart, you can draw line segments with different colors using the [PaletteProvider API](xref:chart2d.PaletteProviderAPI). 
