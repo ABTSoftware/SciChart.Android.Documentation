@@ -22,6 +22,9 @@
 - name: "AxisMarkerAnnotation"
   href: "AxisMarkerAnnotation.md"
 
+- name: "ImageAnnotation"
+  href: "ImageAnnotation.md"
+
 - name: "CustomAnnotation"
   href: "CustomAnnotation.md"
 
