@@ -57,3 +57,6 @@ Now, create and add <xref:com.scichart.charting.modifiers.SeriesSelectionModifie
 
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.
+
+> [!NOTE]
+> To allow or prevent modifiers when inside a scroll view, please visit the [isDisallowInterceptTouchEvent](xref:com.scichart.charting.visuals.SciChartSurface.isDisallowInterceptTouchEvent()) api. Example of the scroll view can be found on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples/blob/SciChart_v4_Release/app/src/main/java/com/scichart/examples/fragments/examples2d/tooltipsAndHitTest/ChartInsideScrollViewFragment.java)
