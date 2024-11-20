@@ -1,12 +1,13 @@
 package com.scichart.docsandbox.examples.kotlin.annotationsAPIs
 
-import com.scichart.charting.visuals.SciChartSurface
+import com.scichart.charting.visuals.SciChartSurface;
 import com.scichart.charting.visuals.annotations.ImageAnnotation;
 import com.scichart.charting.visuals.annotations.AnnotationSurfaceEnum;
 import com.scichart.charting.visuals.annotations.ContentModeEnum;
-import com.scichart.docsandbox.R
-import com.scichart.docsandbox.core.ExampleDefinition
-import com.scichart.docsandbox.examples.base.SingleChart2DFragment
+import com.scichart.docsandbox.R;
+import android.widget.ImageView;
+import com.scichart.docsandbox.core.ExampleDefinition;
+import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
 
 @ExampleDefinition()
 class ImageAnnotationFragment : SingleChart2DFragment() {
@@ -32,7 +33,7 @@ class ImageAnnotationFragment : SingleChart2DFragment() {
         imageAnnotation.image = R.drawable.example_image_annotation
         
         // Specify the image aspect ratio
-        imageAnnotation.setContentMode(ContentModeEnum.FitXY)
+        imageAnnotation.setContentMode(ImageView.ScaleType.FIT_XY)
 
         // Add the annotation to the AnnotationsCollection of a surface
         surface.annotations.add(imageAnnotation)

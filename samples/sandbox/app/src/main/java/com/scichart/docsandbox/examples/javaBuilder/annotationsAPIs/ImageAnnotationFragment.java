@@ -5,6 +5,7 @@ import androidx.annotation.NonNull;
 import com.scichart.charting.visuals.SciChartSurface;
 import com.scichart.charting.visuals.annotations.ImageAnnotation;
 import com.scichart.docsandbox.R;
+import android.widget.ImageView;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
 
@@ -26,7 +27,7 @@ public class ImageAnnotationFragment extends SingleChart2DFragment {
                 // Specify the image resource
                 .withImage(R.drawable.example_image_annotation)
                 // Specify the image aspect ratio
-                .withContentMode(ContentModeEnum.FitXY)
+                .withContentMode(ImageView.ScaleType.FIT_XY)
                 .build();
 
         // Add the annotation to the AnnotationsCollection of a surface

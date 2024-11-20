@@ -7,6 +7,7 @@ import com.scichart.charting.visuals.annotations.ImageAnnotation;
 import com.scichart.charting.visuals.annotations.AnnotationSurfaceEnum;
 import com.scichart.charting.visuals.annotations.ContentModeEnum;
 import com.scichart.docsandbox.R;
+import android.widget.ImageView;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
 
@@ -35,7 +36,7 @@ public class ImageAnnotationFragment extends SingleChart2DFragment {
         imageAnnotation.setImage(R.drawable.example_image_annotation);
         
         // Specify image aspect ratio
-        imageAnnotation.setContentMode(ContentModeEnum.FitXY);
+        imageAnnotation.setContentMode(ImageView.ScaleType.FIT_XY);
         
         // Add the annotation to the AnnotationsCollection of a surface
         surface.getAnnotations().add(imageAnnotation);
