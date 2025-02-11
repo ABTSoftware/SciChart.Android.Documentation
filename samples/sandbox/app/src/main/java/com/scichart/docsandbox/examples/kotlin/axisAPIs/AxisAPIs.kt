@@ -66,7 +66,7 @@ class AxisAPIs : SingleChart2DFragment() {
         axis.visibleRange = DoubleRange(10.0, 50.0)
         // </AddCategoryDateAxis>
     }
-
+}
 
 
 

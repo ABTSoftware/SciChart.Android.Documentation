@@ -58,6 +58,9 @@
 - name: "Axis APIs - Value Axis vs. Category Axis"
   href: "Axis APIs - Value Axis vs. Category Axis.md"
 
+- name: "Axis APIs - Index Date Axis"
+  href: "Axis APIs - Index Date Axis.md"
+
 - name: "Axis Layout - Central Axis"
   href: "Axis Layout - Central Axis.md"
 
