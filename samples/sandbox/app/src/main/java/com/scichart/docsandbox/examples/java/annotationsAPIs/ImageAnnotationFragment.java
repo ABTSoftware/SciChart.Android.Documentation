@@ -33,7 +33,7 @@ public class ImageAnnotationFragment extends SingleChart2DFragment {
         imageAnnotation.setY2(4.0f);
 
         // Specify the image resource
-        imageAnnotation.setImage(R.drawable.example_image_annotation);
+        imageAnnotation.setImage(R.drawable.example_weather_storm);
         
         // Specify image aspect ratio
         imageAnnotation.setContentMode(ImageView.ScaleType.FIT_XY);

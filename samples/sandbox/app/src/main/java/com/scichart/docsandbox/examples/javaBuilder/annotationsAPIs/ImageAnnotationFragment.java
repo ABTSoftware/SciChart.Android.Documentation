@@ -25,7 +25,7 @@ public class ImageAnnotationFragment extends SingleChart2DFragment {
                 // Specify a desired position by setting coordinates
                 .withPosition(20.0f, 10.0f, 90.0f, 4.0f)
                 // Specify the image resource
-                .withImage(R.drawable.example_image_annotation)
+                .withImage(R.drawable.example_weather_storm)
                 // Specify the image aspect ratio
                 .withContentMode(ImageView.ScaleType.FIT_XY)
                 .build();
