@@ -1,5 +1,8 @@
 package com.scichart.docsandbox.examples.kotlin.axisAPIs
 
+import com.scichart.charting.model.dataSeries.OhlcDataSeries
+import com.scichart.charting.numerics.indexDataProvider.DataSeriesIndexDataProvider
+import com.scichart.charting.numerics.indexDataProvider.IIndexDataProvider
 import com.scichart.charting.visuals.SciChartSurface
 import com.scichart.charting.visuals.axes.*
 import com.scichart.data.model.DateRange
@@ -22,43 +25,4 @@ class AxisAPIsIndexDateAxis : SingleChart2DFragment() {
         indexDateAxis.setIndexDataProvider(indexDataProvider)
         // </IndexDateAxis>
     }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

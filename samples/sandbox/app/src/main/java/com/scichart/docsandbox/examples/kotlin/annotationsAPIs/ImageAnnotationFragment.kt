@@ -30,7 +30,7 @@ class ImageAnnotationFragment : SingleChart2DFragment() {
         imageAnnotation.y2 = 4.0f
 
         // Specify the image resource
-        imageAnnotation.image = R.drawable.example_image_annotation
+        imageAnnotation.image = R.drawable.example_weather_storm
         
         // Specify the image aspect ratio
         imageAnnotation.setContentMode(ImageView.ScaleType.FIT_XY)
