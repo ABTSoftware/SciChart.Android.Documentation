@@ -1,25 +1,39 @@
-# SciChart
+# SciChart Android v4 SDK Documentation (User Manual)
 
-SciChart is a **cross platform** component for **High-Performance Realtime Charts** and data visualization. 
+## What is SciChart for Android?
 
-SciChart provides libraries for multiple platforms such as:
+SciChart is a High-Performance Real-time 2D and 3D [Android Charting Library](https://www.scichart.com/android-chart-features/). 
+Designed for use in scientific, financial, trading, engineering and medical apps where you require extreme speed, rich interactivity and depth of features and flexibility in a [Android chart](https://www.scichart.com/Android-chart-features/).
 
-| **Platform**                                                                      | **Description**                                                                  |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [Desktop / WPF](https://www.scichart.com/wpf-chart-features/)                     | Desktop applications with ***C++***, ***C#***.                                   |
-| [WEB / JavaScript](https://www.scichart.com/javascript-chart/)                    | Web applications with ***JavaScript***.                                          |
-| [macOS](https://www.scichart.com/ios-chart-features/)                             | Native macOS applications with ***Objective-C*** and ***Swift***.                |
-| [iOS](https://www.scichart.com/ios-chart-features/)                               | Native iOS applications with ***Objective-C*** and ***Swift***.                  |
-| [Android](https://www.scichart.com/android-chart-features/)                       | Native applications with ***Java*** and ***Kotlin***.                            |
-| [Xamarin.iOS & Xamarin.Android](https://www.scichart.com/examples/xamarin-chart/) | Binding libraries, which allows writing Native iOS/Android Charts with ***C#***. | 
+![SciChart Android v3](/images/scichart-android-screenshot.png)
 
-![SciChart Cross Platform Charting Library](https://www.scichart.com/wp-content/uploads/2019/03/SciChart-Cross-Platform-Header.jpg)
+Across Windows, macOS, iOS and Android the SciChart Family is now in it's sixth generation, and provides an extremely rich, fast and interactive charting experience with a wide array of chart types, and the [Android Charting Library](https://www.scichart.com/android-chart-features/) is the newest edition to our portfolio, bringing high-performance, realtime charts to the Android platform.
 
-SciChart is used by enterprise customers, originating from **over 80 countries**. 
-Designed flexible to serve customers **across sectors**, varying from leading ***Formula 1*** and ***Automotive***, ***Engineering*** and ***Defense*** to ***Trading***, ***Pharmaceutical*** companies and ***Research Institutions***. 
+> [!Video https://www.youtube.com/embed/28wtiSRGmXQ]
 
-We believe that **not only** we have **empowered** the many projects by moving the limitations of what was possible in data visualization but also are **inspiring new projects** to be started, especially for mobile applications.
+The SciChart family is used by thousands of customers in over 80 countries worldwide, in sectors ranging from Defence to Medical, Financial and Trading to Oil & Gas, Process Management to Formula 1. 
 
-Here is the **User Manual** to our [Android Charting library](xref:userManual.UserManual).
+When you become a SciChart customer, you join a community of developers support by a world-class Android graphics & visualization team. 
+We want you to enjoy using our products as much as we enjoy making them, as well as to succeed, so if you have any feedback good or bad, please get in touch as we want to hear from you.
 
-Please let us know if you have any [questions](https://www.scichart.com/contact-us/) or [feedback](https://www.scichart.com/contact-us/).
+The following documentation serves as a reference and an overview of the features in the SciChart Android v4 SDK. 
+For a complete code reference, see the API Documentation, [Android Examples Suite](https://github.com/ABTSoftware/SciChart.Android.Examples), which contains many code samples you can run, export and modify for yourself.
+
+> [!NOTE] 
+> Are you new to SciChart? Check out our most popular pages to get started below:
+> 
+> - **2D CHARTS**
+>   - [2D Charts Tutorials](xref:tutorials2d.SciChartAndroidTutorial-CreateSimple2DChart)
+>   - [Axis Basics](xref:axis.AxisAPIs)
+>   - [Series Basics](xref:chart2d.2DChartTypes)
+>   - [Zoom & Pan Basics](xref:chartModifierAPIs.ChartModifierAPIs#zoom-and-pan-modifiers)
+>   - [Tooltip Basics](xref:chartModifierAPIs.ChartModifierAPIs#interactivity-modifiers)
+>   - [Annotations Basics](xref:annotationsAPIs.AnnotationsAPIs)
+>   - [Styling Basics](xref:stylingAndTheming.StylingAndTheming)
+>   - [Animations Basics](xref:chart2d.animationsAPI)
+> - **3D CHARTS**
+>   - [3D Charts Tutorials](xref:tutorials3d.SciChartAndroidTutorial-CreateSimpleScatterChart3D)
+>   - [Axis 3D Basics](xref:axis3DAPIs.Axis3DAPIs)
+>   - [Series 3D Basics](xref:chart3d.3DChartTypes)
+>   - [Zoom & Pan 3D Basics](xref:chartModifier3DAPIs.ChartModifier3DAPIs#zoom-and-pan-modifiers-3d)
+>   - [Tooltip 3D Basics](xref:chartModifier3DAPIs.ChartModifier3DAPIs#interactivity-modifiers-3d)
