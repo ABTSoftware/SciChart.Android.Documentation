@@ -39,3 +39,6 @@
 
 - name: "Advanced 2D Charting Topics"
   href: "advanced2dTopics/toc.yml"
+
+- name: "Accessibility"
+  href: "Accessibility.md"
