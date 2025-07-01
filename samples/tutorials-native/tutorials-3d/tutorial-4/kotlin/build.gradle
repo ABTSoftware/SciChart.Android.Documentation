@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.scichart.simpleChart.kotlin"
         minSdk 21
-        targetSdk 31
+        targetSdk 35
         versionCode 1
         versionName "1.0"
 
@@ -29,6 +29,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'com.scichart.tutorial'
 }
 
 dependencies {
