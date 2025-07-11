@@ -20,3 +20,12 @@
     </div>
   </div>
 </footer>
+
+<script src="https://chat.scichart.com/chatbot.js"></script>
+<script>
+	window.chatbotConfig = {
+        buttonText: 'Ask SciChart AI',
+        theme: 'light',
+        serviceBaseUrl: 'https://chat.scichart.com/'
+    };
+</script>
