@@ -21,7 +21,7 @@
   </div>
 </footer>
 
-<script src="https://chat.scichart.com/chatbot.js"></script>
+<script defer type="text/javascript" src="https://chat.scichart.com/chatbot.js"></script>
 <script>
 	window.chatbotConfig = {
         buttonText: 'Ask SciChart AI',
