@@ -58,6 +58,26 @@ Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to 
 [!code-swift[AddCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityCursorModifier.kt#AddCursorModifier)]
 ***
 
+## Creating a Custom CursorModifier tooltip
+Below is the example to create a custom CursorModifier tooltip
+
+# [Java](#tab/java)
+[!code-java[CustomCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityCursorModifier.java#CustomCursorModifier)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[CustomCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityCursorModifier.java#CustomCursorModifier)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[CustomCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityCursorModifier.kt#CustomCursorModifier)]
+***
+
+Then use it with your series like shown below
+# [Java](#tab/java)
+[!code-java[UseCustomCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityCursorModifier.java#UseCustomCursorModifier)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[UseCustomCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityCursorModifier.java#UseCustomCursorModifier)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[UseCustomCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityCursorModifier.kt#UseCustomCursorModifier)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.
 
