@@ -12,3 +12,6 @@
 
 - name: "SeriesSelectionModifier"
   href: "SeriesSelectionModifier.md"
+
+- name: "ChartModifierToViewModel"
+  href: "ChartModifierToViewModel.md"
