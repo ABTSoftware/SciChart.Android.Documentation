@@ -58,6 +58,26 @@ Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to 
 [!code-swift[AddTooltipModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityTooltipModifier.kt#AddTooltipModifier)]
 ***
 
+## Creating a Custom TooltipModifier tooltip
+Below is the example to create a custom TooltipModifier tooltip
+
+# [Java](#tab/java)
+[!code-java[CustomTooltipModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityTooltipModifier.java#CustomTooltipModifier)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[CustomTooltipModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityTooltipModifier.java#CustomTooltipModifier)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[CustomTooltipModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityTooltipModifier.kt#CustomTooltipModifier)]
+***
+
+Then use it with your series like shown below
+# [Java](#tab/java)
+[!code-java[UseCustomTooltipModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityTooltipModifier.java#UseCustomTooltipModifier)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[UseCustomTooltipModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityTooltipModifier.java#UseCustomTooltipModifier)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[UseCustomTooltipModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityTooltipModifier.kt#UseCustomTooltipModifier)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.
 

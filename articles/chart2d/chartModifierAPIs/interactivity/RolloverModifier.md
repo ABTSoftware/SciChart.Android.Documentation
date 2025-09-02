@@ -43,6 +43,26 @@ Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to 
 [!code-swift[AddRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityRolloverModifier.kt#AddRolloverModifier)]
 ***
 
+## Creating a Custom RolloverModifier tooltip
+Below is the example to create a custom RolloverModifier tooltip
+
+# [Java](#tab/java)
+[!code-java[CustomRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityRolloverModifier.java#CustomRolloverModifier)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[CustomRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityRolloverModifier.java#CustomRolloverModifier)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[CustomRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityRolloverModifier.kt#CustomRolloverModifier)]
+***
+
+Then use it with your series like shown below
+# [Java](#tab/java)
+[!code-java[UseCustomRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityRolloverModifier.java#UseCustomRolloverModifier)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[UseCustomRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityRolloverModifier.java#UseCustomRolloverModifier)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[UseCustomRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityRolloverModifier.kt#UseCustomRolloverModifier)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.
 
