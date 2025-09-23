@@ -23,3 +23,11 @@ SciChart is actually very memory efficient. SciChart Android uses not much more 
 
 ### Q: Will SciChart for Android support Embedded Devices?
 Yes! SciChart for Android was developed specifically to cope with the use-case of running on custom hardware, and has been optimised in the extreme. We have customers running SciChart for Android on custom hardware based on the Freescale I.MX-6 Dual core 800MHz device with acceptable performance for real-time monitoring equipment.
+
+### Q: Does SciChart support Android's 16KB page size?
+
+Yes! Starting from version **v4.6.2.4895**, SciChart fully supports Android's 16KB page size requirements.
+
+This ensures compatibility with devices that use the larger memory page size configuration, providing optimal performance and stability across all supported Android devices.
+
+If you're using an earlier version of SciChart, we recommend updating to v4.6.2.4895 or later to take advantage of this support along with other improvements.
