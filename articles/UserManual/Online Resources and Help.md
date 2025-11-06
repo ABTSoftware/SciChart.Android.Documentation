@@ -9,4 +9,4 @@ There are several online reosurces to help you get the best out of SciChart Andr
 - Getting started guide at www.scichart.com/getting-started-with-scichart-android
 - Android Support forums at www.scichart.com/questions-android
 - API Documentation at www.scichart.com/documentation/android/current/index.html
-- Support tickets (licensed customers only) at http://support.scichart.com
+- Support tickets (licensed customers only) at [support.scichart.com](https://support.scichart.com)
