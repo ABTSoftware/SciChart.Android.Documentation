@@ -42,10 +42,10 @@ public class InteractivityCursorModifier extends SingleChart2DFragment {
         // Assume a cursorModifier has been created and configured somewhere
 
         // To include a series in the cursorModifier hit-test
-        cursorModifier.includeRenderableSeries(seriesX, true)
+        cursorModifier.includeRenderableSeries(seriesX, true);
 
         // To exclude a series from the cursorModifier hit-test
-        cursorModifier.includeRenderableSeries(seriesY, false)
+        cursorModifier.includeRenderableSeries(seriesY, false);
         // </IncludeExcludeSeries>
     }
 
