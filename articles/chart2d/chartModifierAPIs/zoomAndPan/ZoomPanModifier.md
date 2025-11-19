@@ -36,5 +36,17 @@ Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to 
 [!code-swift[AddZoomPanModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/ZoomAndPanZoomPanModifier.kt#AddZoomPanModifier)]
 ***
 
+## Including/Excluding Axes from ZoomPanModifier
+You can include or exclude specific axes from being affected by the ZoomPanModifier. This is done by using the `includeXAxis` or `includeYAxis` method.
+Below is an example of including/excluding axes from ZoomPanModifier.
+
+# [Java](#tab/java)
+[!code-java[IncludeExcludeAxis](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/ZoomAndPanZoomPanModifier.java#IncludeExcludeAxes)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[IncludeExcludeAxis](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/ZoomAndPanZoomPanModifier.java#IncludeExcludeAxes)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[IncludeExcludeAxis](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/ZoomAndPanZoomPanModifier.kt#IncludeExcludeAxes)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.
