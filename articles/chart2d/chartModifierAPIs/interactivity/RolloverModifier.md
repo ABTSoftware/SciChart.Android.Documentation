@@ -63,6 +63,18 @@ Then use it with your series like shown below
 [!code-swift[UseCustomRolloverModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityRolloverModifier.kt#UseCustomRolloverModifier)]
 ***
 
+## Including/Excluding Series from RolloverModifier
+You can include or exclude series from being affected by the RolloverModifier using the includeRenderableSeries method.
+Below is an example of including/excluding series from RolloverModifier.
+
+# [Java](#tab/java)
+[!code-java[IncludeExcludeSeries](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityRolloverModifier.java#IncludeExcludeSeries)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[IncludeExcludeSeries](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityRolloverModifier.java#IncludeExcludeSeries)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[IncludeExcludeSeries](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityRolloverModifier.kt#IncludeExcludeSeries)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.
 

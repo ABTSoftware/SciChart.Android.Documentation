@@ -35,6 +35,18 @@ class InteractivityCursorModifier : SingleChart2DFragment() {
         // </UseCustomCursorModifier>
     }
 
+    fun includeExcludeSeries(cursorModifier: CursorModifier, seriesX: FastLineRenderableSeries, seriesY: FastLineRenderableSeries) {
+        // <IncludeExcludeSeries>
+        // Assume a cursorModifier has been created and configured somewhere
+
+        // To include series in the cursorModifier
+        cursorModifier.includeRenderableSeries(seriesX, true)
+
+        // To exclude series from the cursorModifier
+        cursorModifier.includeRenderableSeries(seriesY, false)
+        // </IncludeExcludeSeries>
+    }
+
     // <CustomCursorModifier>
     private class CustomSeriesInfoProvider : DefaultXySeriesInfoProvider() {
         override fun getSeriesTooltipInternal(context: Context, seriesInfo: XySeriesInfo<*>?, modifierType: Class<*>): ISeriesTooltip {
