@@ -5,6 +5,7 @@ import androidx.annotation.NonNull;
 import com.scichart.charting.modifiers.ModifierGroup;
 import com.scichart.charting.modifiers.RubberBandXyZoomModifier;
 import com.scichart.charting.visuals.SciChartSurface;
+import com.scichart.charting.visuals.axes.IAxis;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
 import com.scichart.drawing.common.BrushStyle;
@@ -41,5 +42,22 @@ public class ZoomAndPanRubberBandXyZoomModifier extends SingleChart2DFragment {
         // Add the modifier to the surface
         surface.getChartModifiers().add(rubberBandZoomModifier);
         // </AddRubberBandXyZoomModifier>
+    }
+
+    void includeExcludeAxis(RubberBandXyZoomModifier rubberBandXyZoomModifier, IAxis xAxis, IAxis yAxis) {
+        // <IncludeExcludeAxes>
+        // Assume a rubberBandXyZoomModifier has been created and configured somewhere
+
+        // To include/exclude an X axis in the rubberBandXyZoomModifier (true = include, false = exclude)
+        rubberBandXyZoomModifier.includeXAxis(xAxis, true);
+        rubberBandXyZoomModifier.includeXAxis(xAxis, false);
+
+        // To include/exclude an Y axis from the rubberBandXyZoomModifier (true = include, false = exclude)
+        rubberBandXyZoomModifier.includeYAxis(yAxis, true);
+        rubberBandXyZoomModifier.includeYAxis(yAxis, false);
+
+        // To include all X and Y axes to the rubberBandXyZoomModifier
+        rubberBandXyZoomModifier.includeAllXAxes();
+        // </IncludeExcludeAxes>
     }
 }
