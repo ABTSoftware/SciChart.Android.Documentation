@@ -5,6 +5,7 @@ import androidx.annotation.NonNull;
 import com.scichart.charting.Direction2D;
 import com.scichart.charting.modifiers.PinchZoomModifier;
 import com.scichart.charting.visuals.SciChartSurface;
+import com.scichart.charting.visuals.axes.IAxis;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
 
@@ -24,5 +25,22 @@ public class ZoomAndPanPinchZoomModifier extends SingleChart2DFragment {
         // Add the modifier to the surface
         surface.getChartModifiers().add(pinchZoomModifier);
         // </AddPinchZoomModifier2>
+    }
+
+    void includeExcludeAxis(PinchZoomModifier pinchZoomModifier, IAxis xAxis, IAxis yAxis) {
+        // <IncludeExcludeAxes>
+        // Assume a pinchZoomModifier has been created and configured somewhere
+
+        // To include/exclude an X axis in the pinchZoomModifier (true = include, false = exclude)
+        pinchZoomModifier.includeXAxis(xAxis, true);
+        pinchZoomModifier.includeXAxis(xAxis, false);
+
+        // To include/exclude an Y axis from the pinchZoomModifier (true = include, false = exclude)
+        pinchZoomModifier.includeYAxis(yAxis, true);
+        pinchZoomModifier.includeYAxis(yAxis, false);
+
+        // To include all X and Y axes to the pinchZoomModifier
+        pinchZoomModifier.includeAllXAxes();
+        // </IncludeExcludeAxes>
     }
 }

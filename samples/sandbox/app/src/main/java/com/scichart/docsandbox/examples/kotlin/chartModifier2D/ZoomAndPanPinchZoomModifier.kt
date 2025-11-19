@@ -3,6 +3,7 @@ package com.scichart.docsandbox.examples.kotlin.chartModifier2D
 import com.scichart.charting.Direction2D
 import com.scichart.charting.modifiers.PinchZoomModifier
 import com.scichart.charting.visuals.SciChartSurface
+import com.scichart.charting.visuals.axes.IAxis
 import com.scichart.docsandbox.core.ExampleDefinition
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment
 
@@ -21,6 +22,23 @@ class ZoomAndPanPinchZoomModifier : SingleChart2DFragment() {
         // Add the modifier to the surface
         surface.chartModifiers.add(pinchZoomModifier)
         // </AddPinchZoomModifier2>
+    }
+
+    fun includeExcludeAxis(pinchZoomModifier: PinchZoomModifier, xAxis: IAxis, yAxis: IAxis) {
+        // <IncludeExcludeAxis>
+        // Assume a pinchZoomModifier has been created and configured somewhere
+
+        // To include/exclude an X axis in the pinchZoomModifier (true = include, false = exclude)
+        pinchZoomModifier.includeXAxis(xAxis, true)
+        pinchZoomModifier.includeXAxis(xAxis, false)
+
+        // To include/exclude an Y axis from the pinchZoomModifier (true = include, false = exclude)
+        pinchZoomModifier.includeYAxis(yAxis, true)
+        pinchZoomModifier.includeYAxis(yAxis, false)
+
+        // To include all X and Y axes to the pinchZoomModifier
+        pinchZoomModifier.includeAllXAxes()
+        // </IncludeExcludeAxis>
     }
 
 
