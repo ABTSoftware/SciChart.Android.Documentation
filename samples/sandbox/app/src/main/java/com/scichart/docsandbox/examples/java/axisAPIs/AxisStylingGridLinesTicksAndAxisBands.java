@@ -3,6 +3,7 @@ package com.scichart.docsandbox.examples.java.axisAPIs;
 import androidx.annotation.NonNull;
 
 import com.scichart.charting.visuals.SciChartSurface;
+import com.scichart.charting.visuals.axes.IAxis;
 import com.scichart.charting.visuals.axes.NumericAxis;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
@@ -35,5 +36,15 @@ public class AxisStylingGridLinesTicksAndAxisBands extends SingleChart2DFragment
         final NumericAxis axis = new NumericAxis(getContext());
         axis.setAxisBandsStyle(new SolidBrushStyle(0x22279B27));
         // </SetAxisBandsStyle>
+    }
+
+    void setAxisBorderStyle(IAxis xAxis) {
+        // <SetAxisBorderStyle>
+        // Assume xAxis has been created and configured somewhere
+        xAxis.setAxisBorderStyle(new AxisBorderStyle(0xFF4FBEE6, true, 3));
+
+        // Alternatively, set individual thickness for each side, you can set 0 thickness for sides you don't want to style
+        xAxis.setAxisBorderStyle(new AxisBorderStyle(0xFF4FBEE6, true, 3f, 0f, 3f, 0f));
+        // </SetAxisBorderStyle>
     }
 }
