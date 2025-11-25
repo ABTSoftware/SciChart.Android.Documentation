@@ -78,6 +78,18 @@ Then use it with your series like shown below
 [!code-swift[UseCustomCursorModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityCursorModifier.kt#UseCustomCursorModifier)]
 ***
 
+## Including/Excluding Series from CursorModifier
+You can include or exclude series from being affected by the CursorModifier using the includeRenderableSeries method.
+Below is an example of including/excluding series from CursorModifier.
+
+# [Java](#tab/java)
+[!code-java[IncludeExcludeSeries](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/InteractivityCursorModifier.java#IncludeExcludeSeries)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[IncludeExcludeSeries](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/InteractivityCursorModifier.java#IncludeExcludeSeries)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[IncludeExcludeSeries](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/InteractivityCursorModifier.kt#IncludeExcludeSeries)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.
 

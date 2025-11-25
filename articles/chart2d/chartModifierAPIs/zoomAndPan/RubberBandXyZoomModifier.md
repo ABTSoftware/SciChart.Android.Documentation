@@ -31,5 +31,17 @@ Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to 
 [!code-swift[AddRubberBandXyZoomModifier](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/ZoomAndPanRubberBandXyZoomModifier.kt#AddRubberBandXyZoomModifier)]
 ***
 
+## Including/Excluding Axes from RubberBandXyZoomModifier
+You can include or exclude specific axes from being affected by the RubberBandXyZoomModifier. This is done by using the `includeXAxis` or `includeYAxis` method.
+Below is an example of including/excluding axes from RubberBandXyZoomModifier.
+
+# [Java](#tab/java)
+[!code-java[IncludeExcludeAxes](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/ZoomAndPanRubberBandXyZoomModifier.java#IncludeExcludeAxes)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[IncludeExcludeAxes](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/ZoomAndPanRubberBandXyZoomModifier.java#IncludeExcludeAxes)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[IncludeExcludeAxes](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/ZoomAndPanRubberBandXyZoomModifier.kt#IncludeExcludeAxes)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.

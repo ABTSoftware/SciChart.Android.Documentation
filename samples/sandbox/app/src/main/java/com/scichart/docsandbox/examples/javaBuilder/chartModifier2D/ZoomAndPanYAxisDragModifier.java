@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 
 import com.scichart.charting.modifiers.AxisDragModifierBase;
 import com.scichart.charting.modifiers.ModifierGroup;
+import com.scichart.charting.modifiers.YAxisDragModifier;
 import com.scichart.charting.visuals.SciChartSurface;
+import com.scichart.charting.visuals.axes.IAxis;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
 
@@ -27,5 +29,22 @@ public class ZoomAndPanYAxisDragModifier extends SingleChart2DFragment {
         // Add the modifier to the surface
         surface.getChartModifiers().add(yAxisDragModifierGroup);
         // </AddYAxisDragModifier>
+    }
+
+    void includeExcludeAxis(YAxisDragModifier yAxisDragModifier, IAxis xAxis, IAxis yAxis) {
+        // <IncludeExcludeAxes>
+        // Assume a yAxisDragModifier has been created and configured somewhere
+
+        // To include/exclude an X axis in the yAxisDragModifier (true = include, false = exclude)
+        yAxisDragModifier.includeXAxis(xAxis, true);
+        yAxisDragModifier.includeXAxis(xAxis, false);
+
+        // To include/exclude an Y axis from the yAxisDragModifier (true = include, false = exclude)
+        yAxisDragModifier.includeYAxis(yAxis, true);
+        yAxisDragModifier.includeYAxis(yAxis, false);
+
+        // To include all X and Y axes to the yAxisDragModifier
+        yAxisDragModifier.includeAllXAxes();
+        // </IncludeExcludeAxes>
     }
 }

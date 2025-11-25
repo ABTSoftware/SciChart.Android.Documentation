@@ -22,5 +22,17 @@ Any [Chart Modifier](xref:chartModifierAPIs.ChartModifierAPIs) can be [added to 
 [!code-swift[AddPinchZoomModifier2](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/ZoomAndPanPinchZoomModifier.kt#AddPinchZoomModifier2)]
 ***
 
+## Including/Excluding Axes from PinchZoomModifier
+You can include or exclude specific axes from being affected by the PinchZoomModifier. This is done by using the `includeXAxis` or `includeYAxis` method.
+Below is an example of including/excluding axes from PinchZoomModifier.
+
+# [Java](#tab/java)
+[!code-java[IncludeExcludeAxes](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/chartModifier2D/ZoomAndPanPinchZoomModifier.java#IncludeExcludeAxes)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[IncludeExcludeAxes](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/chartModifier2D/ZoomAndPanPinchZoomModifier.java#IncludeExcludeAxes)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[IncludeExcludeAxes](../../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/chartModifier2D/ZoomAndPanPinchZoomModifier.kt#IncludeExcludeAxes)]
+***
+
 > [!NOTE]
 > To learn more about features available, please visit the [Chart Modifier APIs](xref:chartModifierAPIs.ChartModifierAPIs#common-chart-modifier-features) article.

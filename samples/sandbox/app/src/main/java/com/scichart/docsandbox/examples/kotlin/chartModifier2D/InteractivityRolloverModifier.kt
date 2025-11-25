@@ -32,6 +32,18 @@ class InteractivityRolloverModifier : SingleChart2DFragment() {
         // </UseCustomRolloverModifier>
     }
 
+    fun includeExcludeSeries(rolloverModifier: RolloverModifier, seriesX: FastLineRenderableSeries, seriesY: FastLineRenderableSeries) {
+        // <IncludeExcludeSeries>
+        // Assume a rolloverModifier has been created and configured somewhere
+
+        // To include series in the rolloverModifier
+        rolloverModifier.includeRenderableSeries(seriesX, true)
+
+        // To exclude series from the rolloverModifier
+        rolloverModifier.includeRenderableSeries(seriesY, false)
+        // </IncludeExcludeSeries>
+    }
+
     // <CustomRolloverModifier>
     private class CustomSeriesInfoProvider : DefaultXySeriesInfoProvider() {
         override fun getSeriesTooltipInternal(context: Context, seriesInfo: XySeriesInfo<*>?, modifierType: Class<*>): ISeriesTooltip {

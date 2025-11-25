@@ -42,6 +42,18 @@ public class InteractivityCursorModifier extends SingleChart2DFragment {
         // </UseCustomCursorModifier>
     }
 
+    void includeExcludeSeries(CursorModifier cursorModifier, FastLineRenderableSeries seriesX, FastLineRenderableSeries seriesY) {
+        // <IncludeExcludeSeries>
+        // Assume a cursorModifier has been created and configured somewhere
+
+        // To include a series in the cursorModifier hit-test
+        cursorModifier.includeRenderableSeries(seriesX, true);
+
+        // To exclude a series from the cursorModifier hit-test
+        cursorModifier.includeRenderableSeries(seriesY, false);
+        // </IncludeExcludeSeries>
+    }
+
     // <CustomCursorModifier>
     private static class CustomSeriesInfoProvider extends DefaultXySeriesInfoProvider {
         @Override

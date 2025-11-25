@@ -2,7 +2,7 @@
 uid: "axisAPIs.AxisStylingGridLinesTicksAndAxisBands"
 ---
 
-# Axis Styling - Grid Lines, Ticks and Axis Bands
+# Axis Styling - Grid Lines, Ticks, Axis Bands and Axis Borders
 As mentioned in previous article on Axis Styling - [Title and Labels](xref:axisAPIs.AxisStylingTitleAndLabels) -
 **each and every** aspect of the axis can be styled. The Axis is responsible for drawing the following parts:
 - [Title](xref:axisAPIs.AxisStylingTitleAndLabels#axis-title)
@@ -10,6 +10,7 @@ As mentioned in previous article on Axis Styling - [Title and Labels](xref:axisA
 - [Tick Lines](#axis-ticks) - small marks on the outside of an axis **next to labels**
 - [Grid Lines](#grid-lines) - major and minor
 - [Axis Bands](#axis-bands) - shading between the **major** grid-lines
+- [Axis Borders](#axis-borders) - borders around the axis area
 
 In this article we are going to focus on [Tick Lines](#axis-ticks), [Gridlines](#grid-lines) and [Axis Bands](#axis-bands) styling. So let's pick up where we left off in [previous article](xref:axisAPIs.AxisStylingTitleAndLabels) and proceed with some styling.
 
@@ -58,4 +59,16 @@ The colored strips between **Major** grid lines are called **Axis Bands**. They 
 [!code-java[SetAxisBandsStyle](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/axisAPIs/AxisStylingGridLinesTicksAndAxisBands.java#SetAxisBandsStyle)]
 # [Kotlin](#tab/kotlin)
 [!code-swift[SetAxisBandsStyle](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/axisAPIs/AxisStylingGridLinesTicksAndAxisBands.kt#SetAxisBandsStyle)]
+***
+
+## Axis Borders
+You can style your axis borders with the help of the **AxisBorderStyle** class.
+This class allows you to set the border color, thickness, and which sides of the axis should have borders.
+
+# [Java](#tab/java)
+[!code-java[SetAxisBorderStyle](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/java/axisAPIs/AxisStylingGridLinesTicksAndAxisBands.java#SetAxisBorderStyle)]
+# [Java with Builders API](#tab/javaBuilder)
+[!code-java[SetAxisBorderStyle](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/javaBuilder/axisAPIs/AxisStylingGridLinesTicksAndAxisBands.java#SetAxisBorderStyle)]
+# [Kotlin](#tab/kotlin)
+[!code-swift[SetAxisBorderStyle](../../../samples/sandbox/app/src/main/java/com/scichart/docsandbox/examples/kotlin/axisAPIs/AxisStylingGridLinesTicksAndAxisBands.kt#SetAxisBorderStyle)]
 ***

@@ -36,6 +36,18 @@ public class InteractivityRolloverModifier extends SingleChart2DFragment {
         // </UseCustomRolloverModifier>
     }
 
+    void includeExcludeSeries(RolloverModifier rolloverModifier, FastLineRenderableSeries seriesX, FastLineRenderableSeries seriesY) {
+        // <IncludeExcludeSeries>
+        // Assume a rolloverModifier has been created and configured somewhere
+
+        // To include a series in the rolloverModifier hit-test
+        rolloverModifier.includeRenderableSeries(seriesX, true);
+
+        // To exclude a series from the rolloverModifier hit-test
+        rolloverModifier.includeRenderableSeries(seriesY, false);
+        // </IncludeExcludeSeries>
+    }
+
     // <CustomRolloverModifier>
     private static class CustomSeriesInfoProvider extends DefaultXySeriesInfoProvider {
         @Override

@@ -2,6 +2,7 @@ package com.scichart.docsandbox.examples.kotlin.chartModifier2D
 
 import com.scichart.charting.modifiers.RubberBandXyZoomModifier
 import com.scichart.charting.visuals.SciChartSurface
+import com.scichart.charting.visuals.axes.IAxis
 import com.scichart.docsandbox.core.ExampleDefinition
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment
 import com.scichart.drawing.common.BrushStyle
@@ -33,5 +34,23 @@ class ZoomAndPanRubberBandXyZoomModifier : SingleChart2DFragment() {
         // Add the modifier to the surface
         surface.chartModifiers.add(rubberBandZoomModifier)
         // </AddRubberBandXyZoomModifier>
+    }
+
+
+    fun includeExcludeAxis(rubberBandXyZoomModifier: RubberBandXyZoomModifier, xAxis: IAxis, yAxis: IAxis) {
+        // <IncludeExcludeAxis>
+        // Assume a rubberBandXyZoomModifier has been created and configured somewhere
+
+        // To include/exclude an X axis in the rubberBandXyZoomModifier (true = include, false = exclude)
+        rubberBandXyZoomModifier.includeXAxis(xAxis, true)
+        rubberBandXyZoomModifier.includeXAxis(xAxis, false)
+
+        // To include/exclude an Y axis from the rubberBandXyZoomModifier (true = include, false = exclude)
+        rubberBandXyZoomModifier.includeYAxis(yAxis, true)
+        rubberBandXyZoomModifier.includeYAxis(yAxis, false)
+
+        // To include all X and Y axes to the rubberBandXyZoomModifier
+        rubberBandXyZoomModifier.includeAllXAxes()
+        // </IncludeExcludeAxis>
     }
 }

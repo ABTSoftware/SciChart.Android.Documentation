@@ -1,6 +1,7 @@
 package com.scichart.docsandbox.examples.kotlin.axisAPIs
 
 import com.scichart.charting.visuals.SciChartSurface
+import com.scichart.charting.visuals.axes.IAxis
 import com.scichart.charting.visuals.axes.NumericAxis
 import com.scichart.docsandbox.core.ExampleDefinition
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment
@@ -32,5 +33,15 @@ class AxisStylingGridLinesTicksAndAxisBands : SingleChart2DFragment() {
         val axis = NumericAxis(context)
         axis.axisBandsStyle = SolidBrushStyle(0x22279B27)
         // </SetAxisBandsStyle>
+    }
+
+    fun setAxisBorderStyle(xAxis: IAxis) {
+        // <SetAxisBorderStyle>
+        // Assume xAxis has been created and configured somewhere
+        xAxis.setAxisBorderStyle(AxisBorderStyle(-0xb0411a, true, 3))
+
+        // Alternatively, set individual thickness for each side, you can set 0 thickness for sides you don't want to style
+        xAxis.setAxisBorderStyle(AxisBorderStyle(-0xb0411a, true, 3f, 0f, 3f, 0f))
+        // </SetAxisBorderStyle>
     }
 }
