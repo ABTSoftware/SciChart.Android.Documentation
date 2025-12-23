@@ -56,7 +56,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 
-    def sciChart_version = "4.6.0.4877"
+    def sciChart_version = "4.7.0.4901"
     def compose_ui = '1.8.3'
 
     // region Compose UI
