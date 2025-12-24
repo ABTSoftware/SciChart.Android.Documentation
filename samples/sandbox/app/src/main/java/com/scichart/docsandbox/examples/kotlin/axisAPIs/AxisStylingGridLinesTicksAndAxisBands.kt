@@ -39,7 +39,7 @@ class AxisStylingGridLinesTicksAndAxisBands : SingleChart2DFragment() {
     fun setAxisBorderStyle(xAxis: IAxis) {
         // <SetAxisBorderStyle>
         // Assume xAxis has been created and configured somewhere
-        xAxis.axisBorderStyle = AxisBorderStyle(-0xb0411a, true, 3)
+        xAxis.axisBorderStyle = AxisBorderStyle(-0xb0411a, true, 3f)
 
         // Alternatively, set individual thickness for each side, you can set 0 thickness for sides you don't want to style
         xAxis.axisBorderStyle = AxisBorderStyle(-0xb0411a, true, 3f, 0f, 3f, 0f)

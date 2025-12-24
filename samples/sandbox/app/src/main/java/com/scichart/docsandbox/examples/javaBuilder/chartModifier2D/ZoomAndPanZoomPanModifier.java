@@ -47,7 +47,7 @@ public class ZoomAndPanZoomPanModifier extends SingleChart2DFragment {
         zoomPanModifier.includeYAxis(yAxis, false);
 
         // To include all X and Y axes to the zoomPanModifier
-        zoomPanModifier.includeAllXAxes();
+        zoomPanModifier.includeAllAxes();
         // </IncludeExcludeAxes>
     }
 }
