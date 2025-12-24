@@ -37,7 +37,7 @@ class ZoomAndPanPinchZoomModifier : SingleChart2DFragment() {
         pinchZoomModifier.includeYAxis(yAxis, false)
 
         // To include all X and Y axes to the pinchZoomModifier
-        pinchZoomModifier.includeAllXAxes()
+        pinchZoomModifier.includeAllAxes()
         // </IncludeExcludeAxis>
     }
 
