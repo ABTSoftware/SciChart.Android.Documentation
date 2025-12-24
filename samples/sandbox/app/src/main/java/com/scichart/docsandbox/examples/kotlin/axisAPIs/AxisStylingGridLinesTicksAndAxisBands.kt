@@ -5,6 +5,7 @@ import com.scichart.charting.visuals.axes.IAxis
 import com.scichart.charting.visuals.axes.NumericAxis
 import com.scichart.docsandbox.core.ExampleDefinition
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment
+import com.scichart.drawing.common.AxisBorderStyle
 import com.scichart.drawing.common.SolidBrushStyle
 import com.scichart.drawing.common.SolidPenStyle
 
@@ -38,10 +39,10 @@ class AxisStylingGridLinesTicksAndAxisBands : SingleChart2DFragment() {
     fun setAxisBorderStyle(xAxis: IAxis) {
         // <SetAxisBorderStyle>
         // Assume xAxis has been created and configured somewhere
-        xAxis.setAxisBorderStyle(AxisBorderStyle(-0xb0411a, true, 3))
+        xAxis.axisBorderStyle = AxisBorderStyle(-0xb0411a, true, 3)
 
         // Alternatively, set individual thickness for each side, you can set 0 thickness for sides you don't want to style
-        xAxis.setAxisBorderStyle(AxisBorderStyle(-0xb0411a, true, 3f, 0f, 3f, 0f))
+        xAxis.axisBorderStyle = AxisBorderStyle(-0xb0411a, true, 3f, 0f, 3f, 0f)
         // </SetAxisBorderStyle>
     }
 }
