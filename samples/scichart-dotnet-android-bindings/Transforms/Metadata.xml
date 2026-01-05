@@ -1,0 +1,139 @@
+﻿<metadata>
+  <!-- Relax abstract builders so generated subclasses compile -->
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnimatorBuilderBase']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnimatorBuilderBase.RenderPassDataAnimatorBuilder']/method[@name='withScaleTransformation' and count(parameter)=1 and parameter[1][@type='double']]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnimatorBuilderBase.RenderPassDataAnimatorBuilder']/method[@name='withSweepTransformation' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnimatorBuilderBase.RenderPassDataAnimatorBuilder']/method[@name='withSweepTransformation' and count(parameter)=1 and parameter[1][@type='boolean']]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnimatorBuilderBase.RenderPassDataAnimatorBuilder']/method[@name='withTranslateYTransformation' and count(parameter)=1 and parameter[1][@type='float']]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnimatorBuilderBase.RenderPassDataAnimatorBuilder']/method[@name='withWaveTransformation' and count(parameter)=2 and parameter[1][@type='double'] and parameter[2][@type='float']]" name="abstract">false</attr>
+
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnnotationBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AnnotationBuilder.AnchorPointAnnotationBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+
+  <attr path="/api/package[@name='com.scichart.extensions.builders.base']/class[@name='AxisCoreBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='AxisBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+
+  <!-- Align IView with Xamarin.Android surface naming -->
+  <attr path="/api/package[@name='com.scichart.core.framework']/interface[@name='IView']/method[@name='getLayoutParams' and count(parameter)=0]" name="propertyName">LayoutParameters</attr>
+  <attr path="/api/package[@name='com.scichart.core.framework']/interface[@name='IView']/method[@name='getLayoutParams' and count(parameter)=0]" name="managedReturn">Android.Views.ViewGroup.LayoutParams</attr>
+  <attr path="/api/package[@name='com.scichart.core.framework']/interface[@name='IView']/method[@name='setLayoutParams' and count(parameter)=1]" name="propertyName">LayoutParameters</attr>
+  <attr path="/api/package[@name='com.scichart.core.framework']/interface[@name='IView']/method[@name='setLayoutParams' and count(parameter)=1]" name="managedParameters">Android.Views.ViewGroup.LayoutParams</attr>
+
+  <!-- Relax abstract layout contract so partial classes compile -->
+  <attr path="/api/package[@name='com.scichart.charting.visuals.layout']/class[@name='CanvasViewContainer']/method[@name='getLayoutParams' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.layout']/class[@name='CanvasViewContainer']/method[@name='setLayoutParams' and count(parameter)=1]" name="abstract">false</attr>
+
+  <!-- Builders (3D) -->
+  <attr path="/api/package[@name='com.scichart.extensions3d.builders']/class[@name='ModifierGroup3DBuilder.Modifier3DBuilderBase']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions3d.builders']/class[@name='ModifierGroup3DBuilder.Modifier3DBuilderBase']/method[@name='build' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions3d.builders']/class[@name='ModifierGroup3DBuilder.Modifier3DBuilderBase']/method[@name='getModifierGroupBuilder' and count(parameter)=0]" name="abstract">false</attr>
+
+  <!-- Series info providers -->
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='SeriesInfoProviderBase']/method[@name='getSeriesInfoInternal' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='SeriesInfoProviderBase']/method[@name='getSeriesTooltipInternal' and count(parameter)=3]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='SeriesInfoProviderBase']/method[@name='tryAddSeriesToLegendDataSource' and count(parameter)=1]" name="abstract">false</attr>
+
+  <attr path="/api/package[@name='com.scichart.charting3d.visuals.renderableSeries.hitTest']/class[@name='Seriesinfo3DProviderBase']/method[@name='getSeriesInfoInternal' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.visuals.renderableSeries.hitTest']/class[@name='Seriesinfo3DProviderBase']/method[@name='getSeriesTooltipInternal' and count(parameter)=3]" name="abstract">false</attr>
+
+  <!-- IView visibility & layout alignment -->
+  <attr path="/api/package[@name='com.scichart.charting.visuals.layout']/class[@name='CanvasViewContainer']/method[@name='getLayoutParams' and count(parameter)=0]" name="propertyName">LayoutParameters</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.layout']/class[@name='CanvasViewContainer']/method[@name='setLayoutParams' and count(parameter)=1]" name="propertyName">LayoutParameters</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.layout']/class[@name='FrameViewContainer']/method[@name='getLayoutParams' and count(parameter)=0]" name="propertyName">LayoutParameters</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.layout']/class[@name='FrameViewContainer']/method[@name='setLayoutParams' and count(parameter)=1]" name="propertyName">LayoutParameters</attr>
+  <!-- Vector wrappers override AbstractList -->
+  <attr path="/api/package[@name='com.scichart.core.cpp']/class[@name='IntVector']/method[@name='get' and count(parameter)=1]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectorwstr']/method[@name='get' and count(parameter)=1]" name="managedReturn">string</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectorwstr']/method[@name='get' and count(parameter)=1]" name="managedName">GetString</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectorul']/method[@name='get' and count(parameter)=1]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectorui']/method[@name='get' and count(parameter)=1]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectorstr']/method[@name='get' and count(parameter)=1]" name="managedReturn">string</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectorstr']/method[@name='get' and count(parameter)=1]" name="managedName">GetString</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectori']/method[@name='get' and count(parameter)=1]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectorf']/method[@name='get' and count(parameter)=1]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.interop']/class[@name='Vectord']/method[@name='get' and count(parameter)=1]" name="managedReturn">Java.Lang.Object</attr>
+
+  <!-- Chart modifier collections -->
+  <attr path="/api/package[@name='com.scichart.charting.model']/class[@name='ChartModifierCollectionBase']/method[@name='onCollectionChanged' and count(parameter)=2]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.model']/class[@name='ChartModifier3DCollection']/method[@name='onCollectionChanged' and count(parameter)=2]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model']/class[@name='ChartModifierCollection']/method[@name='onCollectionChanged' and count(parameter)=2]" name="abstract">false</attr>
+
+  <!-- Data distribution calculators -->
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseDataDistributionCalculator']/method[@name='onAppendValue' and count(parameter)=3]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseDataDistributionCalculator']/method[@name='onAppendValues' and count(parameter)=4]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseDataDistributionCalculator']/method[@name='onInsertValue' and count(parameter)=4]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseDataDistributionCalculator']/method[@name='onInsertValues' and count(parameter)=5]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseDataDistributionCalculator']/method[@name='onUpdateValue' and count(parameter)=4]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseDataDistributionCalculator']/method[@name='onUpdateValues' and count(parameter)=5]" name="abstract">false</attr>
+
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseHeatmapDataDistributionCalculator']/method[@name='onUpdateXValue' and count(parameter)=4]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseHeatmapDataDistributionCalculator']/method[@name='onUpdateXValues' and count(parameter)=4]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseHeatmapDataDistributionCalculator']/method[@name='onUpdateYValue' and count(parameter)=4]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.datadistributioncalculator']/class[@name='BaseHeatmapDataDistributionCalculator']/method[@name='onUpdateYValues' and count(parameter)=4]" name="abstract">false</attr>
+
+  <!-- Renderable series builders -->
+  <attr path="/api/package[@name='com.scichart.extensions.builders.base']/class[@name='RenderableSeriesCoreBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders.base']/class[@name='RenderableSeriesCoreBuilder']/method[@name='build' and count(parameter)=0]" name="abstract">false</attr>
+
+  <attr path="/api/package[@name='com.scichart.extensions3d.builders']/class[@name='RenderableSeriesCoreBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions3d.builders']/class[@name='RenderableSeriesCoreBuilder']/method[@name='build' and count(parameter)=0]" name="abstract">false</attr>
+
+  <!-- Data series builders -->
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='DataSeriesBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='DataSeriesBuilder']/method[@name='build' and count(parameter)=0]" name="abstract">false</attr>
+
+  <!-- Pie renderable series builders -->
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='PieRenderableSeriesBuilderBase']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='PieRenderableSeriesBuilderBase']/method[@name='rawThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='PieRenderableSeriesBuilderBase']/method[@name='build' and count(parameter)=0]" name="abstract">false</attr>
+
+  <!-- Modifier group builders -->
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='ModifierGroupBuilder.ModifierBuilderBase']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='ModifierGroupBuilder.ModifierBuilderBase']/method[@name='rawThis' and count(parameter)=0]" name="abstract">false</attr>
+
+  <!-- Uniform heatmap interface uses property-style accessors -->
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='getStartX' and count(parameter)=0]" name="propertyName">StartX</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='setStartX' and count(parameter)=1]" name="propertyName">StartX</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='getStartY' and count(parameter)=0]" name="propertyName">StartY</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='setStartY' and count(parameter)=1]" name="propertyName">StartY</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='getStepX' and count(parameter)=0]" name="propertyName">StepX</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='setStepX' and count(parameter)=1]" name="propertyName">StepX</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='getStepY' and count(parameter)=0]" name="propertyName">StepY</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/interface[@name='IUniformHeatmapDataSeries']/method[@name='setStepY' and count(parameter)=1]" name="propertyName">StepY</attr>
+
+  <!-- Relax base formatter and provider contracts -->
+  <attr path="/api/package[@name='com.scichart.charting.numerics.labelProviders']/class[@name='LabelFormatterBase']/method[@name='update' and count(parameter)=1]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.numerics.labelProviders']/class[@name='CategoryLabelProviderBase']/method[@name='updateBarTimeFrame' and count(parameter)=2]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='PieSeriesInfoProviderBase']/method[@name='getSeriesTooltipInternal' and count(parameter)=3]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='PieSeriesInfoProviderBase']/method[@name='getSeriesInfoInternal' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='SeriesTooltipBase']/method[@name='internalUpdate' and count(parameter)=1]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='PieSeriesTooltipBase']/method[@name='internalUpdate' and count(parameter)=1]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.visuals.renderableSeries.tooltips']/class[@name='SeriesTooltip3DBase']/method[@name='internalUpdate' and count(parameter)=1]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.visuals.renderableSeries']/class[@name='BaseRenderableSeriesSceneEntity3D']/method[@name='updateNativeEntity' and count(parameter)=1]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting3d.visuals.renderableSeries']/class[@name='BaseRenderableSeriesSceneEntity3D']/method[@name='updateNativeMeshes' and count(parameter)=1]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries']/class[@name='StackedSeriesCollectionBase']/method[@name='getCategoryXRange' and count(parameter)=1]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/class[@name='XDataSeries']/method[@name='getWindowedYRange' and count(parameter)=2 and parameter[1][@type='com.scichart.charting.numerics.coordinateCalculators.ICoordinateCalculator'] and parameter[2][@type='boolean']]" name="final">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.model.dataSeries']/class[@name='XDataSeries']/method[@name='getWindowedYRange' and count(parameter)=2 and parameter[1][@type='com.scichart.data.model.IndexRange'] and parameter[2][@type='boolean']]" name="final">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders.base']/class[@name='PenStyleBuilder']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='PieChartModifierBuilderBase']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.extensions.builders']/class[@name='PieSegmentsBuilderBase']/method[@name='getThis' and count(parameter)=0]" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='PieSeriesTooltip']/method[@name='internalUpdate' and count(parameter)=1]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='DefaultPieChartSeriesInfoProvider']/method[@name='getSeriesTooltipInternal' and count(parameter)=3]/parameter[2]" name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='HorizontallyStackedSeriesRolloverTooltip']/method[@name='updateTooltip' and count(parameter)=2]/parameter[1]" name="managedType">Com.Scichart.Core.Common.IAction2</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='HorizontallyStackedSeriesRolloverTooltip']/method[@name='updateTooltip' and count(parameter)=2]/parameter[2]" name="managedType">Android.Graphics.PointF</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='VerticallyStackedSeriesRolloverTooltip']/method[@name='updateTooltip' and count(parameter)=2]/parameter[1]" name="managedType">Com.Scichart.Core.Common.IAction2</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='VerticallyStackedSeriesRolloverTooltip']/method[@name='updateTooltip' and count(parameter)=2]/parameter[2]" name="managedType">Android.Graphics.PointF</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='StackedSeriesTooltip']/method[@name='updateTooltip' and count(parameter)=2]/parameter[1]" name="managedType">Com.Scichart.Core.Common.IAction2</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='StackedSeriesTooltip']/method[@name='updateTooltip' and count(parameter)=2]/parameter[2]" name="managedType">Android.Graphics.PointF</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='StackedSeriesTooltipBase']/method[@name='updateTooltip' and count(parameter)=2]/parameter[1]" name="managedType">Com.Scichart.Core.Common.IAction2</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.tooltips']/class[@name='StackedSeriesTooltipBase']/method[@name='updateTooltip' and count(parameter)=2]/parameter[2]" name="managedType">Android.Graphics.PointF</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='HorizontallyStackedColumnsCollection']/method[@name='getCategoryXRange' and count(parameter)=1]/parameter[1]" name="managedType">Com.Scichart.Data.Model.IRange</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='VerticallyStackedSeriesCollection']/method[@name='getCategoryXRange' and count(parameter)=1]/parameter[1]" name="managedType">Com.Scichart.Data.Model.IRange</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries.hitTest']/class[@name='StackedSeriesCollectionBase']/method[@name='getCategoryXRange' and count(parameter)=1]/parameter[1]" name="managedType">Com.Scichart.Data.Model.IRange</attr>
+  <attr path="/api/package[@name='com.scichart.core.observable']/class[@name='CollectionChangedEventArgs']" name="final">false</attr>
+
+  <attr path="/api/package[@name='com.scichart.charting.modifiers']/class[@name='ChartModifierCore']/method[@name='setIsEnabled' and count(parameter)=1]" name="managedName">SetIsEnabledInternal</attr>
+  <attr path="/api/package[@name='com.scichart.charting.modifiers']/class[@name='ChartModifierCore']/method[@name='setReceiveHandledEvents' and count(parameter)=1]" name="managedName">SetReceiveHandledEventsInternal</attr>
+  <attr path="/api/package[@name='com.scichart.charting.visuals.renderableSeries']/class[@name='PieDonutRenderableSeriesBase']/field[@name='invalidateLayoutListener']" name="managedType">Java.Lang.Object</attr>
+
+</metadata>
