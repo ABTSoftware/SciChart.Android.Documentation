@@ -7,6 +7,7 @@ import com.scichart.charting.visuals.axes.IAxis;
 import com.scichart.charting.visuals.axes.NumericAxis;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
+import com.scichart.drawing.common.AxisBorderStyle;
 import com.scichart.drawing.common.SolidBrushStyle;
 import com.scichart.drawing.common.SolidPenStyle;
 

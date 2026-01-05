@@ -39,7 +39,7 @@ public class ZoomAndPanYAxisDragModifier extends SingleChart2DFragment {
         yAxisDragModifier.includeYAxis(yAxis, false);
 
         // To include all X and Y axes to the yAxisDragModifier
-        yAxisDragModifier.includeAllXAxes();
+        yAxisDragModifier.includeAllAxes();
         // </IncludeExcludeAxes>
     }
 }

@@ -52,7 +52,7 @@ public class ZoomAndPanRubberBandXyZoomModifier extends SingleChart2DFragment {
         rubberBandXyZoomModifier.includeYAxis(yAxis, false);
 
         // To include all X and Y axes to the rubberBandXyZoomModifier
-        rubberBandXyZoomModifier.includeAllXAxes();
+        rubberBandXyZoomModifier.includeAllAxes();
         // </IncludeExcludeAxes>
     }
 }
