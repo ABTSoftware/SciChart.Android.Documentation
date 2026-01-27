@@ -14,4 +14,9 @@ _exported_templates
 
 !/build
 
+/samples/scichart-dotnet-android-bindings/.idea/
+/samples/scichart-dotnet-android-bindings/bin/
+/samples/scichart-dotnet-android-bindings/obj/
+/samples/scichart-dotnet-android-bindings/*.aar
+
 **/local.properties
