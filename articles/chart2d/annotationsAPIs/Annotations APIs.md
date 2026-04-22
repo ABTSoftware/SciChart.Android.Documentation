@@ -24,6 +24,7 @@ The annotations which are available out the box in SciChart are listed below:
 | **Annotation Type**                                          | **Description**                                                                                                        |
 | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | [BoxAnnotation](xref:annotationsAPIs.BoxAnnotation)                       | Draws a **rectangle** at specific `X1, X2, Y1, Y2` coordinates.                                                        |
+| [BrushAnnotation](xref:annotationsAPIs.BrushAnnotation)                     | Allows for **freehand drawing** on the chart.                                                                           |
 | [LineAnnotation](xref:annotationsAPIs.LineAnnotation)                     | Draws a **line** between `[X1, Y1]` and `[X2, Y2]` coordinates.                                                        |
 | [LineArrowAnnotation](xref:annotationsAPIs.LineArrowAnnotation)           | Draws an **arrow** from `[X1, Y1]` to `[X2, Y2]` coordinates.                                                          |
 | [HorizontalLineAnnotation](xref:annotationsAPIs.HorizontalLineAnnotation) | Draws a **horizontal line** between `[X1, Y1]` and `[X2, Y2]` coordinates.                                             |
