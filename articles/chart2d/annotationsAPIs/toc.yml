@@ -31,4 +31,9 @@
 - name: "CustomAnnotation"
   href: "CustomAnnotation.md"
 
+- name: "Annotation Creation Modifiers"
+  items:
+    - name: "BrushAnnotationCreationModifier"
+      href: "BrushAnnotationCreationModifier.md"
+
 

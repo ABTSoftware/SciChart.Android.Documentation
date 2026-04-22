@@ -121,3 +121,8 @@ As mentioned [above](#common-annotations-features) - that's can be controlled vi
 > This is demonstrated in the **Interaction with Annotations** example which can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
 > - [Native Example](https://www.scichart.com/example/android-chart/android-chart-interaction-with-annotations-example/)
 > - [Xamarin Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-interaction-with-annotations-example/)
+
+## Annotation Creation Modifiers
+SciChart also provides a set of specialized **Chart Modifiers** that allow users to create annotations interactively on the chart using touch gestures. 
+
+To learn more about available creation modifiers, please refer to the corresponding articles in the **Annotation Creation Modifiers** section.
