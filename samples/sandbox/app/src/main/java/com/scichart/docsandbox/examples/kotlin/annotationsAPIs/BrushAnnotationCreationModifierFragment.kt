@@ -22,7 +22,7 @@ class BrushAnnotationCreationModifierFragment : SingleChart2DFragment() {
             // Optional: Set a listener to be notified when an annotation is created
             setAnnotationCreationListener { newAnnotation ->
                 // Configure the newly created annotation if needed
-                newAnnotation.isEditable = true
+                newAnnotation.setIsEditable(true)
             }
         }
 

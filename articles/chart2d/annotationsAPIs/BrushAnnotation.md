@@ -39,4 +39,7 @@ A <xref:com.scichart.charting.visuals.annotations.tradingAnnotations.BrushAnnota
 ***
 
 > [!NOTE]
+> For interactive creation of the `BrushAnnotation`, use the [BrushAnnotationCreationModifier](xref:annotationsAPIs.BrushAnnotationCreationModifier).
+
+> [!NOTE]
 > To learn more about other **Annotation Types**, available out of the box in SciChart, please find the comprehensive list in the [Annotation APIs](xref:annotationsAPIs.AnnotationsAPIs) article.
