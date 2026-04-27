@@ -31,9 +31,15 @@
 - name: "CustomAnnotation"
   href: "CustomAnnotation.md"
 
+- name: "XabcdAnnotation"
+  href: "XabcdAnnotation.md"
+
 - name: "Annotation Creation Modifiers"
   items:
     - name: "BrushAnnotationCreationModifier"
       href: "BrushAnnotationCreationModifier.md"
+
+    - name: "XabcdAnnotationCreationModifier"
+      href: "XabcdAnnotationCreationModifier.md"
 
 
