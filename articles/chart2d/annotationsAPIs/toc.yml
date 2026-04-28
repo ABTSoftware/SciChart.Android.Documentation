@@ -34,6 +34,9 @@
 - name: "XabcdAnnotation"
   href: "XabcdAnnotation.md"
 
+- name: "PitchforkAnnotation"
+  href: "PitchforkAnnotation.md"
+
 - name: "Annotation Creation Modifiers"
   items:
     - name: "BrushAnnotationCreationModifier"
@@ -41,5 +44,8 @@
 
     - name: "XabcdAnnotationCreationModifier"
       href: "XabcdAnnotationCreationModifier.md"
+
+    - name: "PitchforkAnnotationCreationModifier"
+      href: "PitchforkAnnotationCreationModifier.md"
 
 
