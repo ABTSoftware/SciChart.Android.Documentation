@@ -18,6 +18,7 @@ The following properties can be used to configure the `XabcdAnnotationCreationMo
 | --- | --- |
 | [xAxisId](xref:com.scichart.charting.modifiers.XabcdAnnotationCreationModifier.setXAxisId(java.lang.String)) | Sets the ID of the X-Axis that the created annotations should be measured against. |
 | [yAxisId](xref:com.scichart.charting.modifiers.XabcdAnnotationCreationModifier.setYAxisId(java.lang.String)) | Sets the ID of the Y-Axis that the created annotations should be measured against. |
+| [rubberBandStroke](xref:com.scichart.charting.modifiers.XabcdAnnotationCreationModifier.setRubberBandStroke(com.scichart.drawing.common.PenStyle)) | Sets the pen style for the preview line shown during creation. |
 
 ## Event Listeners
 You can receive a notification when an annotation is fully created by setting an <xref:com.scichart.charting.modifiers.OnAnnotationCreatedListener>:
