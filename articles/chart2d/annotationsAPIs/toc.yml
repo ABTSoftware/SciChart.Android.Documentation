@@ -1,8 +1,8 @@
 - name: "BoxAnnotation"
   href: "BoxAnnotation.md"
 
-- name: "BrushAnnotation"
-  href: "BrushAnnotation.md"
+- name: "FreehandDrawingAnnotation"
+  href: "FreehandDrawingAnnotation.md"
 
 - name: "LineAnnotation"
   href: "LineAnnotation.md"
@@ -39,8 +39,8 @@
 
 - name: "Annotation Creation Modifiers"
   items:
-    - name: "BrushAnnotationCreationModifier"
-      href: "BrushAnnotationCreationModifier.md"
+    - name: "FreehandDrawingAnnotationCreationModifier"
+      href: "FreehandDrawingAnnotationCreationModifier.md"
 
     - name: "XabcdAnnotationCreationModifier"
       href: "XabcdAnnotationCreationModifier.md"

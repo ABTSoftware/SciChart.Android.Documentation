@@ -26,8 +26,8 @@ public class PitchforkAnnotationFragment extends SingleChart2DFragment {
 
         // Specify the stroke and fill styles
         pitchforkAnnotation.setStroke(new SolidPenStyle(Color.RED, true, 2f, null));
-        pitchforkAnnotation.setSidesFill(new SolidBrushStyle(Color.GREEN));
-        pitchforkAnnotation.setMiddleFill(new SolidBrushStyle(Color.BLUE));
+        pitchforkAnnotation.setFullWidthZoneFill(new SolidBrushStyle(Color.GREEN));
+        pitchforkAnnotation.setHalfWidthZoneFill(new SolidBrushStyle(Color.BLUE));
 
         // Add 3 points to define the pitchfork
         pitchforkAnnotation.setBasePoint(10, 30.6); // Handle (Point 0)

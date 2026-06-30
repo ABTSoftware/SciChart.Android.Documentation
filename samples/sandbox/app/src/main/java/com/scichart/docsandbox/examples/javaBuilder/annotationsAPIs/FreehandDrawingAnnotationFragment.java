@@ -3,21 +3,21 @@ package com.scichart.docsandbox.examples.javaBuilder.annotationsAPIs;
 import androidx.annotation.NonNull;
 
 import com.scichart.charting.visuals.SciChartSurface;
-import com.scichart.charting.visuals.annotations.tradingAnnotations.BrushAnnotation;
+import com.scichart.charting.visuals.annotations.tradingAnnotations.FreehandDrawingAnnotation;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
 import android.graphics.Color;
 
 @ExampleDefinition()
-public class BrushAnnotationFragment extends SingleChart2DFragment {
+public class FreehandDrawingAnnotationFragment extends SingleChart2DFragment {
     @Override
     protected void initExample(@NonNull SciChartSurface surface) { }
 
-    void addBrushAnnotation(@NonNull SciChartSurface surface) {
-        // <AddBrushAnnotation>
+    void addFreehandDrawingAnnotation(@NonNull SciChartSurface surface) {
+        // <AddFreehandDrawingAnnotation>
         // Assume a surface has been created and configured somewhere
-        // Create a BrushAnnotation using the SciChartBuilder
-        final BrushAnnotation brushAnnotation = sciChartBuilder.newBrushAnnotation()
+        // Create a FreehandDrawingAnnotation using the SciChartBuilder
+        final FreehandDrawingAnnotation freehandAnnotation = sciChartBuilder.newFreehandDrawingAnnotation()
                 .withBrushColor(Color.WHITE)
                 .withBrushThickness(4f)
                 .withBasePoint(10, 30.6)
@@ -27,7 +27,7 @@ public class BrushAnnotationFragment extends SingleChart2DFragment {
                 .build();
 
         // Add the annotation to the AnnotationsCollection of a surface
-        surface.getAnnotations().add(brushAnnotation);
-        // </AddBrushAnnotation>
+        surface.getAnnotations().add(freehandAnnotation);
+        // </AddFreehandDrawingAnnotation>
     }
 }

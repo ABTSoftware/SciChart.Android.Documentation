@@ -26,8 +26,8 @@ The median line starts at Point 0 and passes through the midpoint of the segment
 ## Appearance Properties
 The following properties can be used to customize the appearance of the `PitchforkAnnotation`:
 - [stroke](xref:com.scichart.charting.visuals.annotations.AnnotationBase.setStroke(com.scichart.drawing.common.PenStyle)): Sets the pen style for all the lines in the pitchfork.
-- [sidesFill](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation.setSidesFill(com.scichart.drawing.common.BrushStyle)): Sets the brush style for the outer filled areas.
-- [middleFill](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation.setMiddleFill(com.scichart.drawing.common.BrushStyle)): Sets the brush style for the inner filled area around the median line.
+- [fullWidthZoneFill](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation.setFullWidthZoneFill(com.scichart.drawing.common.BrushStyle)): Sets the brush style for the outer full-width filled zones (the regions alongside the outer tine lines).
+- [halfWidthZoneFill](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation.setHalfWidthZoneFill(com.scichart.drawing.common.BrushStyle)): Sets the brush style for the inner half-width filled zone around the median line.
 
 ## Create a PitchforkAnnotation
 A <xref:com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation> can be added onto a chart using the following code:

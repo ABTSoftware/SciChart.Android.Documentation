@@ -24,7 +24,7 @@ The annotations which are available out the box in SciChart are listed below:
 | **Annotation Type**                                          | **Description**                                                                                                        |
 | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | [BoxAnnotation](xref:annotationsAPIs.BoxAnnotation)                       | Draws a **rectangle** at specific `X1, X2, Y1, Y2` coordinates.                                                        |
-| [BrushAnnotation](xref:annotationsAPIs.BrushAnnotation)                     | Allows for **freehand drawing** on the chart.                                                                           |
+| [FreehandDrawingAnnotation](xref:annotationsAPIs.FreehandDrawingAnnotation)             | Allows for **freehand drawing** on the chart.                                                                           |
 | [XabcdAnnotation](xref:annotationsAPIs.XabcdAnnotation)                     | Draws **harmonic patterns** (X, A, B, C, D) with automatic **Fibonacci-style ratios**.                                  |
 | [PitchforkAnnotation](xref:annotationsAPIs.PitchforkAnnotation)             | Draws **Andrew's Pitchfork** patterns using **3 points** (Handle, High, Low).                                          |
 | [LineAnnotation](xref:annotationsAPIs.LineAnnotation)                     | Draws a **line** between `[X1, Y1]` and `[X2, Y2]` coordinates.                                                        |

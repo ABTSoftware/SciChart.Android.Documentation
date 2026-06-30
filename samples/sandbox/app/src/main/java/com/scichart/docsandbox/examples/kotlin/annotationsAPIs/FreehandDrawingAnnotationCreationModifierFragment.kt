@@ -1,6 +1,6 @@
 package com.scichart.docsandbox.examples.kotlin.annotationsAPIs
 
-import com.scichart.charting.modifiers.BrushAnnotationCreationModifier
+import com.scichart.charting.modifiers.FreehandDrawingModifier
 import com.scichart.charting.visuals.SciChartSurface
 import com.scichart.core.utility.touch.ModifierTouchEventArgs
 import com.scichart.docsandbox.core.ExampleDefinition
@@ -8,13 +8,13 @@ import com.scichart.docsandbox.examples.base.SingleChart2DFragment
 import android.graphics.Color
 
 @ExampleDefinition()
-class BrushAnnotationCreationModifierFragment : SingleChart2DFragment() {
+class FreehandDrawingAnnotationCreationModifierFragment : SingleChart2DFragment() {
     override fun initExample(surface: SciChartSurface) {}
 
-    fun addBrushAnnotationCreationModifier(surface: SciChartSurface) {
-        // <AddBrushAnnotationCreationModifier>
-        // Create a BrushAnnotationCreationModifier
-        val brushCreationModifier = BrushAnnotationCreationModifier().apply {
+    fun addFreehandDrawingAnnotationCreationModifier(surface: SciChartSurface) {
+        // <AddFreehandDrawingAnnotationCreationModifier>
+        // Create a FreehandDrawingModifier
+        val freehandModifier = FreehandDrawingModifier().apply {
             // Configure the modifier
             brushColor = Color.WHITE
             brushThickness = 4f
@@ -27,13 +27,13 @@ class BrushAnnotationCreationModifierFragment : SingleChart2DFragment() {
         }
 
         // Add the modifier to the surface
-        surface.chartModifiers.add(brushCreationModifier)
-        // </AddBrushAnnotationCreationModifier>
+        surface.chartModifiers.add(freehandModifier)
+        // </AddFreehandDrawingAnnotationCreationModifier>
     }
 
-    // <CustomBrushAnnotationCreationModifier>
-    // Define a custom BrushAnnotationCreationModifier
-    private class CustomBrushAnnotationCreationModifier : BrushAnnotationCreationModifier() {
+    // <CustomFreehandDrawingAnnotationCreationModifier>
+    // Define a custom FreehandDrawingModifier
+    private class CustomFreehandDrawingModifier : FreehandDrawingModifier() {
         override fun onTouchDown(args: ModifierTouchEventArgs): Boolean {
             // Custom logic before creation
             return super.onTouchDown(args)
@@ -50,12 +50,12 @@ class BrushAnnotationCreationModifierFragment : SingleChart2DFragment() {
         }
     }
 
-    fun useCustomBrushAnnotationCreationModifier(surface: SciChartSurface) {
+    fun useCustomFreehandDrawingModifier(surface: SciChartSurface) {
         // Use the custom modifier
-        val customModifier = CustomBrushAnnotationCreationModifier()
+        val customModifier = CustomFreehandDrawingModifier()
         customModifier.brushColor = Color.YELLOW
         
         surface.chartModifiers.add(customModifier)
     }
-    // </CustomBrushAnnotationCreationModifier>
+    // </CustomFreehandDrawingAnnotationCreationModifier>
 }

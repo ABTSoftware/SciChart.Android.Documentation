@@ -20,8 +20,8 @@ class PitchforkAnnotationFragment : SingleChart2DFragment() {
 
         // Specify the stroke and fill styles
         pitchforkAnnotation.stroke = SolidPenStyle(Color.RED, true, 2f, null)
-        pitchforkAnnotation.sidesFill = SolidBrushStyle(Color.GREEN)
-        pitchforkAnnotation.middleFill = SolidBrushStyle(Color.BLUE)
+        pitchforkAnnotation.fullWidthZoneFill = SolidBrushStyle(Color.GREEN)
+        pitchforkAnnotation.halfWidthZoneFill = SolidBrushStyle(Color.BLUE)
 
         // Add 3 points to define the pitchfork
         pitchforkAnnotation.setBasePoint(10, 30.6) // Handle (Point 0)

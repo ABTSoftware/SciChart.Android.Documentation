@@ -19,8 +19,8 @@ public class PitchforkAnnotationFragment extends SingleChart2DFragment {
         // Create a PitchforkAnnotation using the SciChartBuilder
         final PitchforkAnnotation pitchforkAnnotation = sciChartBuilder.newPitchforkAnnotation()
                 .withStroke(Color.RED, 2f)
-                .withSidesFill(Color.GREEN)
-                .withMiddleFill(Color.BLUE)
+                .withFullWidthZoneFill(Color.GREEN)
+                .withHalfWidthZoneFill(Color.BLUE)
                 .withBasePoint(10, 30.6)
                 .withBasePoint(30, 31.5)
                 .withBasePoint(50, 30.3)
