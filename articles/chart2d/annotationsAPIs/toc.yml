@@ -1,6 +1,9 @@
 - name: "BoxAnnotation"
   href: "BoxAnnotation.md"
 
+- name: "FreehandDrawingAnnotation"
+  href: "FreehandDrawingAnnotation.md"
+
 - name: "LineAnnotation"
   href: "LineAnnotation.md"
 
@@ -27,5 +30,22 @@
 
 - name: "CustomAnnotation"
   href: "CustomAnnotation.md"
+
+- name: "XabcdAnnotation"
+  href: "XabcdAnnotation.md"
+
+- name: "PitchforkAnnotation"
+  href: "PitchforkAnnotation.md"
+
+- name: "Annotation Creation Modifiers"
+  items:
+    - name: "FreehandDrawingAnnotationCreationModifier"
+      href: "FreehandDrawingAnnotationCreationModifier.md"
+
+    - name: "XabcdAnnotationCreationModifier"
+      href: "XabcdAnnotationCreationModifier.md"
+
+    - name: "PitchforkAnnotationCreationModifier"
+      href: "PitchforkAnnotationCreationModifier.md"
 
 
