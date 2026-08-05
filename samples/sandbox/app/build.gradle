@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    compileSdk 35
+    compileSdk 37
 
     defaultConfig {
         applicationId "com.scichart.docsandbox"
         minSdk 21
-        targetSdk 35
+        targetSdk 37
         versionCode 1
         versionName "1.0"
 
@@ -62,7 +62,7 @@ dependencies {
 
     // <DeclareSciChartLibariesAsMavenDependencies>
 
-    def sciChart_version = "4.7.0.4901"
+    def sciChart_version = "4.8.0.4930"
 
     // Declare SciChart libraries as module dependencies
     implementation (group: 'com.scichart.library', name: 'core', version: sciChart_version, ext: 'aar')

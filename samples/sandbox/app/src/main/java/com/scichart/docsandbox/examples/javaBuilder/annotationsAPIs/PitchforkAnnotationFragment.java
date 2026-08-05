@@ -6,6 +6,9 @@ import com.scichart.charting.visuals.SciChartSurface;
 import com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation;
 import com.scichart.docsandbox.core.ExampleDefinition;
 import com.scichart.docsandbox.examples.base.SingleChart2DFragment;
+import com.scichart.drawing.common.BrushStyle;
+import com.scichart.drawing.common.SolidBrushStyle;
+
 import android.graphics.Color;
 
 @ExampleDefinition()
@@ -18,9 +21,9 @@ public class PitchforkAnnotationFragment extends SingleChart2DFragment {
         // Assume a surface has been created and configured somewhere
         // Create a PitchforkAnnotation using the SciChartBuilder
         final PitchforkAnnotation pitchforkAnnotation = sciChartBuilder.newPitchforkAnnotation()
-                .withStroke(Color.RED, 2f)
-                .withFullWidthZoneFill(Color.GREEN)
-                .withHalfWidthZoneFill(Color.BLUE)
+                .withStroke(2f, Color.RED)
+                .withFullWidthZoneFill(new SolidBrushStyle(Color.GREEN))
+                .withHalfWidthZoneFill(new SolidBrushStyle(Color.BLUE))
                 .withBasePoint(10, 30.6)
                 .withBasePoint(30, 31.5)
                 .withBasePoint(50, 30.3)
