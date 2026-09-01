@@ -11,9 +11,6 @@ The <xref:com.scichart.charting.visuals.annotations.tradingAnnotations.Pitchfork
 > Examples of the **Annotations** usage can be found in the [SciChart Android Examples Suite](https://www.scichart.com/examples/Android-chart/) as well as on [GitHub](https://github.com/ABTSoftware/SciChart.Android.Examples):
 > - [Native Android Chart Annotations Example](https://www.scichart.com/example/android-chart/android-chart-annotations-example/)
 > - [Native Android Chart Interactive Annotations Example](https://www.scichart.com/example/android-chart/android-chart-interaction-with-annotations-example/)
->
-> - [Xamarin Android Chart Annotations Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-annotations-example/)
-> - [Xamarin Android Chart Interactive Annotations Example](https://www.scichart.com/example/xamarin-chart/xamarin-chart-interaction-with-annotations-example/)
 
 ## Structure and Points
 The `PitchforkAnnotation` is defined by 3 base points:
@@ -25,7 +22,7 @@ The median line starts at Point 0 and passes through the midpoint of the segment
 
 ## Appearance Properties
 The following properties can be used to customize the appearance of the `PitchforkAnnotation`:
-- [stroke](xref:com.scichart.charting.visuals.annotations.AnnotationBase.setStroke(com.scichart.drawing.common.PenStyle)): Sets the pen style for all the lines in the pitchfork.
+- [stroke](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.TradingAnnotationBase.setStroke(com.scichart.drawing.common.PenStyle)): Sets the pen style for all the lines in the pitchfork.
 - [fullWidthZoneFill](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation.setFullWidthZoneFill(com.scichart.drawing.common.BrushStyle)): Sets the brush style for the outer full-width filled zones (the regions alongside the outer tine lines).
 - [halfWidthZoneFill](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.PitchforkAnnotation.setHalfWidthZoneFill(com.scichart.drawing.common.BrushStyle)): Sets the brush style for the inner half-width filled zone around the median line.
 
