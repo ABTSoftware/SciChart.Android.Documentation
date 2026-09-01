@@ -37,6 +37,15 @@
 - name: "PitchforkAnnotation"
   href: "PitchforkAnnotation.md"
 
+- name: "FibonacciRetracementAnnotation"
+  href: "FibonacciRetracementAnnotation.md"
+
+- name: "MeasureAnnotation"
+  href: "MeasureAnnotation.md"
+
+- name: "StopLossTakeProfitAnnotation"
+  href: "StopLossTakeProfitAnnotation.md"
+
 - name: "Annotation Creation Modifiers"
   items:
     - name: "FreehandDrawingAnnotationCreationModifier"
@@ -47,5 +56,14 @@
 
     - name: "PitchforkAnnotationCreationModifier"
       href: "PitchforkAnnotationCreationModifier.md"
+
+    - name: "FibonacciRetracementAnnotationCreationModifier"
+      href: "FibonacciRetracementAnnotationCreationModifier.md"
+
+    - name: "MeasureAnnotationCreationModifier"
+      href: "MeasureAnnotationCreationModifier.md"
+
+    - name: "StopLossTakeProfitAnnotationCreationModifier"
+      href: "StopLossTakeProfitAnnotationCreationModifier.md"
 
 

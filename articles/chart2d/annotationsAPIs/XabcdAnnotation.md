@@ -26,7 +26,7 @@ These ratios are calculated based on the values on the specified [ratioAxisId](x
 
 ## Appearance Properties
 The following properties can be used to customize the appearance of the `XabcdAnnotation`:
-- [stroke](xref:com.scichart.charting.visuals.annotations.AnnotationBase.setStroke(com.scichart.drawing.common.PenStyle)): Sets the pen style for the primary lines (XA, AB, BC, CD) and the secondary dashed lines (XB, AC, BD, XD).
+- [stroke](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.TradingAnnotationBase.setStroke(com.scichart.drawing.common.PenStyle)): Sets the pen style for the primary lines (XA, AB, BC, CD) and the secondary dashed lines (XB, AC, BD, XD).
 - [fill](xref:com.scichart.charting.visuals.annotations.tradingAnnotations.XabcdAnnotation.setFill(com.scichart.drawing.common.BrushStyle)): Sets the brush style for the two filled triangular areas (XAB and BCD).
 
 ## Create an XabcdAnnotation

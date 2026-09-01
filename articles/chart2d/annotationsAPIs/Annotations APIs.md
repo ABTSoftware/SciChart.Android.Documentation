@@ -27,6 +27,9 @@ The annotations which are available out the box in SciChart are listed below:
 | [FreehandDrawingAnnotation](xref:annotationsAPIs.FreehandDrawingAnnotation)             | Allows for **freehand drawing** on the chart.                                                                           |
 | [XabcdAnnotation](xref:annotationsAPIs.XabcdAnnotation)                     | Draws **harmonic patterns** (X, A, B, C, D) with automatic **Fibonacci-style ratios**.                                  |
 | [PitchforkAnnotation](xref:annotationsAPIs.PitchforkAnnotation)             | Draws **Andrew's Pitchfork** patterns using **3 points** (Handle, High, Low).                                          |
+| [FibonacciRetracementAnnotation](xref:annotationsAPIs.FibonacciRetracementAnnotation) | Draws **Fibonacci retracement levels** across a price move defined by **2 points**.                              |
+| [MeasureAnnotation](xref:annotationsAPIs.MeasureAnnotation)                 | **Measures the move** between **2 points** - price change, percentage change and bar count.                            |
+| [StopLossTakeProfitAnnotation](xref:annotationsAPIs.StopLossTakeProfitAnnotation) | Draws a **take-profit / stop-loss price zone** between **2 points**, colored by the direction of the move.        |
 | [LineAnnotation](xref:annotationsAPIs.LineAnnotation)                     | Draws a **line** between `[X1, Y1]` and `[X2, Y2]` coordinates.                                                        |
 | [LineArrowAnnotation](xref:annotationsAPIs.LineArrowAnnotation)           | Draws an **arrow** from `[X1, Y1]` to `[X2, Y2]` coordinates.                                                          |
 | [HorizontalLineAnnotation](xref:annotationsAPIs.HorizontalLineAnnotation) | Draws a **horizontal line** between `[X1, Y1]` and `[X2, Y2]` coordinates.                                             |
