@@ -62,7 +62,7 @@ dependencies {
 
     // <DeclareSciChartLibariesAsMavenDependencies>
 
-    def sciChart_version = "4.8.0.4930"
+    def sciChart_version = "4.8.1.4932"
 
     // Declare SciChart libraries as module dependencies
     implementation (group: 'com.scichart.library', name: 'core', version: sciChart_version, ext: 'aar')
