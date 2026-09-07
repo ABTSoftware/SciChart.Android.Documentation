@@ -14,7 +14,7 @@ buildscript {
 }
 
 ext {
-    sciChartVersion = '4.8.0.4930'
+    sciChartVersion = '4.8.1.4932'
 }
 
 task clean(type: Delete) {
